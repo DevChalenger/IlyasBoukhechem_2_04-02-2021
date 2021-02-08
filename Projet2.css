@@ -17,6 +17,10 @@ body{
 	font-size: 1.2em;
 	font-family: Raleway_Bold;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 #BlockPage{
 	width: 1440px;
 	height: auto;
@@ -217,6 +221,12 @@ h4{
 	position: relative;
 	left: 20px;
 	margin-bottom: -15px;
+}
+.Line{
+	float: right;
+	width: 1.1em;
+	position: relative;
+	right:1.5em
 }
 .Trend p{ 
 	position: relative;
