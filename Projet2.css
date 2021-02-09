@@ -12,6 +12,7 @@
 
 }
 body{
+	width: 1519px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 1.2em;
@@ -261,7 +262,6 @@ h4{
 	position: relative;
 	left:15px;
 	top: 10px;
-	padding-left: -10px;
 	display: flex;
 	width: 1px;
 }
@@ -375,7 +375,7 @@ h4{
 }
 footer{
 	margin: auto;
-	width: 1519px;
+	width: auto;
 	height: 200px ;
 	margin-top: 2em;
 	margin-bottom: -1%;
