@@ -22,6 +22,9 @@ a{
 	text-decoration: none;
 	color: black;
 }
+p{
+	font-family: Raleway;
+}
 #BlockPage{
 	width: 1440px;
 	height: auto;
@@ -208,7 +211,7 @@ h4{
 }
 .HébergementsMarseille{
 	background-color: #F2F2F2;
-	width: 950px;
+	width: 990px;
 	height: 600px;
 	border-radius: 1em;
 	float: left;
@@ -228,9 +231,8 @@ h4{
 .HébergementsMarseille p{
 	font-size: 0.7em;
 	position: relative;
-	bottom: 15px;
+	bottom: 13px;
 	left: 15px;
-	opacity: 80%;
 	margin:0px 0px -12px 0px;
 }
 .HébergementsMarseille h3{
@@ -239,13 +241,13 @@ h4{
 	margin-top: -0px;
 }
 .BlocImgHébergement{
-	width: 240px;
+	width: 280px;
 	height: 180px;
 	background-color: white;
-	margin-left: 50px;
+	margin-left: 30px;
 	margin-bottom: 30px;
 	position: relative;
-	right: 55px;
+	right: 45px;
 	border-radius: 1em;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
@@ -261,7 +263,7 @@ h4{
 .HébergementsMarseille .FlexStars{
 	position: relative;
 	left:15px;
-	top: 10px;
+	top: 2px;
 	display: flex;
 	width: 1px;
 }
@@ -291,7 +293,6 @@ h4{
 	position: relative;
 	left: 10px;
 	bottom: 0px;
-	opacity: 70%;
 }
 .Trend1{
 	background-color: white;
@@ -394,7 +395,6 @@ footer h2{
 }
 footer p{
 	font-size: 0.85em;
-	opacity: 60%;
 	position: relative;
 	left: 50px;
 }
