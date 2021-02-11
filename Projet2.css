@@ -12,7 +12,7 @@
 
 }
 body{
-	width: 1519px;
+	width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 1.2em;
@@ -26,11 +26,11 @@ p{
 	font-family: Raleway;
 }
 #BlockPage{
-	width: 1440px;
+	width: 1400px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2.65%;
+	margin-top: 2.75%;
 	padding-left: 0%;
 	font-family: Raleway_Bold;
 }
@@ -81,7 +81,7 @@ p{
 }
 #head h3 span{
 	font-size: 0.7em;
-	opacity: 60%;
+	font-family: Raleway;
 }
 /*Début de la Barre de recherche*/
 #BarreDeRecherche{
@@ -143,6 +143,9 @@ p{
 	position: relative;
 	bottom: 1em;
 }
+#head tr{
+	height: 2px;
+}
 #head td{
 	width: 200px;
 	height: 20px;
@@ -153,21 +156,32 @@ p{
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-left: 2px solid rgba(0,0,0,0);
-	margin-left: 100px;
-	margin-right: 100px;
 	z-index: 1;
+}
+td :nth-child(2){
+	margin-left: 100px;
 }
 #head td:hover{
 	cursor:pointer;
 }
 .money{
-	width: 20px;
+	width: 1em;
+	vertical-align: center;
 	position:relative;
-	right:  5%;
-	border: 2px solid #F2F2F2;
+	top: 0.2em;
+}
+tr div{
+	display: inline-block;
+	background-color: #DEEBFF ;
+	border-radius: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	width: 1.5em;
+	height: 1.5em;
+	position: relative;
+	right: 1em;
 }
 .Famille{
-	width: 20px;
+	width: 1em;
 	position:relative;
 	right:  5%;
 	top: 2%;
@@ -195,8 +209,8 @@ h4{
 /*Fin de l'en-tête*/
 /*Début de la section Hébergements à Marseille*/
 .BlockHébergements{
-	width: 1440px;
-	height: 600px ;
+	width: 1420px;
+	height: 700px ;
 
 }
 .FlexHébergements{
@@ -211,8 +225,8 @@ h4{
 }
 .HébergementsMarseille{
 	background-color: #F2F2F2;
-	width: 990px;
-	height: 600px;
+	width: 900px;
+	height: 650px;
 	border-radius: 1em;
 	float: left;
 }
@@ -241,8 +255,8 @@ h4{
 	margin-top: -0px;
 }
 .BlocImgHébergement{
-	width: 280px;
-	height: 180px;
+	width: 250px;
+	height: 200px;
 	background-color: white;
 	margin-left: 30px;
 	margin-bottom: 30px;
@@ -251,14 +265,64 @@ h4{
 	border-radius: 1em;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
-.HébergementsMarseille .ImgHébergement{
-	width: 235px;
-	height: 100px;
-	padding: 2px;
-	position: relative;
-	right: 0px;
-	border-top-left-radius:1em ;
+.BlocImgHébergement .imgHomeDimension1{
+	width:243PX;
+	height: 120px;
+	margin: 4px;
+	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg) center;
+	background-size: 250px 180px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension2{
+	width:243PX;
+	height: 120px;
+	margin: 4px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg) center;
+	background-size: 250px 180px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension3{
+	width:243PX;
+	height: 120px;
+	margin: 4px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg) center;
+	background-size: 250px 180px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension4{
+	width:243PX;
+	height: 120px;
+	margin: 4px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg) center;
+	background-size: 250px 240px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension5{
+	width:243PX;
+	height: 120px;
+	margin: 4px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) center;
+	background-size: 250px 180px;
+	background-repeat: no-repeat;
+}.BlocImgHébergement .imgHomeDimension6{
+	width:243PX;
+	height: 120px;
+	margin: 4px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center;
+	background-size: 250px 380px;
+	background-repeat: no-repeat;
 }
 .HébergementsMarseille .FlexStars{
 	position: relative;
@@ -271,8 +335,8 @@ h4{
 /*Début de l'aside */
 .Trend{
 	float: right;
-	width: 400px;
-	height: 600px;
+	width: 450px;
+	height: 650px;
 	border-radius: 1em;
 	background-color: #F2F2F2;
 }
@@ -308,7 +372,7 @@ h4{
 }
 .Trend1Img{
 	width: 130px;
-	height: 118px;
+	height: 140px;
 	border-bottom-left-radius: 1em;
 	border-top-left-radius: 1em;
 	padding:3px 2px 2px 4px;
@@ -328,7 +392,7 @@ h4{
 }
 .Trend2Img{
 	width: 130px;
-	height: 118px;
+	height: 140px;
 	border-bottom-left-radius: 1em;
 	border-top-left-radius: 1em;
 	padding:3px 2px 2px 4px;
@@ -347,7 +411,7 @@ h4{
 }
 .Trend3Img{
 	width: 130px;
-	height: 118px;
+	height: 140px;
 	border-bottom-left-radius: 1em;
 	border-top-left-radius: 1em;
 	padding: 3px 2px 2px 4px;
@@ -368,7 +432,7 @@ h4{
 }
 #Activités{
 	width: 1440px;
-	height: 500px ;
+	height: 650px ;
 }
 #Activités h2{
 	font-size: 1.1em;
