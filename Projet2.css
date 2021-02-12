@@ -12,7 +12,7 @@
 
 }
 body{
-	width: 1440px;
+	width: 1519px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 1.2em;
@@ -30,7 +30,7 @@ p{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2.75%;
+	margin-top: 2.65%;
 	padding-left: 0%;
 	font-family: Raleway_Bold;
 }
@@ -80,7 +80,7 @@ p{
 	font-family: Raleway_bold;
 }
 #head h3 span{
-	font-size: 0.7em;
+	font-size: 0.72em;
 	font-family: Raleway;
 }
 /*Début de la Barre de recherche*/
@@ -115,12 +115,14 @@ p{
 .Map{
 	width: 14px;
 	margin:13px 0px 0px 17px;
+	position: relative;
+	bottom: 2px;
 }
 #BouttonDeRecherche{
 	border:1px;
-	border-top-right-radius: 1em;
+	border-top-right-radius: 0.8em;
 	font-size: 0.85em;
-	border-bottom-right-radius:1em;
+	border-bottom-right-radius:0.8em;
 	background-color: #0065FC;
 	margin:5px 0px 0px -5px;
 	padding:2px 0px 1px 0px;
@@ -139,78 +141,100 @@ p{
 }
 /*Fin de la Barre de recherche*/
 /*Début des Filtres*/
-#head table{
-	position: relative;
-	bottom: 1em;
+.FlexFiltres{
+	margin-top: -25px;
+	margin-left: 10px;
 }
-#head tr{
-	height: 2px;
+.TitreFiltre{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
 }
-#head td{
-	width: 200px;
-	height: 20px;
+.filtres{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1020px;
+	margin-top:15px;
+	margin-bottom:15px;
 	text-align: center;
-	border-top: 2px solid #F2F2F2 ;
-	border-bottom: 2px solid #F2F2F2 ;
-	border-right: 2px solid #F2F2F2 ;
-	border-top-right-radius: 2em;
-	border-bottom-right-radius: 2em;
-	border-left: 2px solid rgba(0,0,0,0);
-	z-index: 1;
+	font-family: Raleway_Bold;
 }
-td :nth-child(2){
-	margin-left: 100px;
+
+.filtre{
+	border-top: 3px solid #F2F2F2;
+	border-right: 3px solid #F2F2F2;
+	border-bottom: 3px solid #F2F2F2;
+	border-left: 3px solid white;
+	padding-right:20px;
+	margin-left: 14px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	border-radius: 2em;
+	z-index: auto;
 }
-#head td:hover{
-	cursor:pointer;
-}
-.money{
-	width: 1em;
-	vertical-align: center;
-	position:relative;
-	top: 0.2em;
-}
-tr div{
-	display: inline-block;
-	background-color: #DEEBFF ;
+  
+.blockIcone{	
+	background-color: #DEEBFF;
+	background-size: auto;
 	border-radius: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
-	width: 1.5em;
-	height: 1.5em;
-	position: relative;
-	right: 1em;
+	width: 30px;
+	height: 30px;
+	margin:-3px 11px -3px -3px;
+	padding: 0.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
-.Famille{
-	width: 1em;
-	position:relative;
-	right:  5%;
-	top: 2%;
+
+.blockMoney:hover,.blockFamily:hover,.blockHeart:hover,.blockDog:hover{
+	border-top: 3px solid #0065FC;
+	border-right: 3px solid #0065FC;
+	border-bottom: 3px solid #0065FC;
+	background-color: #DEEBFF;
+
 }
-.Heart{
-	width: 1.5em;
-	position:relative;
-	right:  5%;
-	top: 2%;
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+	font-size: 1em;
+    color: #0065FC;
+	display: flex;
+
 }
-.Dog{
-	width: 1.5em;
-	position:relative;
-	right:  5%;
-	top: 2%;
-}
-.icone{
-	width: 5px;
-	border: 2px solid #F2F2F2;
-}
-h4{
-	font-size: 0.7em;
-	opacity: 70%;
-}
+
 /*Fin de l'en-tête*/
+h4{
+	font-size: 0.8em;
+	font-family: Raleway;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.info{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #F2F2F2;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+	margin-left: 10px;
+	
+	position: relative;
+	bottom: 2px;
+}
+.fa-info{
+	font-size: 0.9em;
+	color: #0065FC;
+	
+}
 /*Début de la section Hébergements à Marseille*/
 .BlockHébergements{
 	width: 1420px;
-	height: 700px ;
+	height: 650px ;
 
 }
 .FlexHébergements{
@@ -220,8 +244,13 @@ h4{
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-.Stars{
+.fa-star{
 	width:20px;	height: 12px;
+	color: #0065FC;
+	font-size: 10px;
+}
+.StarsGray{
+	color: #F2F2F2;
 }
 .HébergementsMarseille{
 	background-color: #F2F2F2;
@@ -329,7 +358,7 @@ h4{
 	left:15px;
 	top: 2px;
 	display: flex;
-	width: 1px;
+	width: 2px;
 }
 /*Fin de la section Hébergements à Marseille*/
 /*Début de l'aside */
@@ -347,7 +376,7 @@ h4{
 	left: 20px;
 	margin-bottom: -15px;
 }
-.Line{
+.fa-chart-line{
 	float: right;
 	width: 1.1em;
 	position: relative;
