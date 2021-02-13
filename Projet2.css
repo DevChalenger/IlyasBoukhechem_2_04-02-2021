@@ -92,7 +92,7 @@ p{
 	left: 49px;
 	border:1px solid rgb(240,240,240);
 	color: black;
-	font-size: 1em;
+	font-size: 0.9em;
 }
 #BarreDeRecherche::placeholder{
 	color: black;
@@ -154,7 +154,7 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 1020px;
+	width: 1000px;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
@@ -167,7 +167,6 @@ p{
 	border-bottom: 3px solid #F2F2F2;
 	border-left: 3px solid white;
 	padding-right:20px;
-	margin-left: 14px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -233,7 +232,7 @@ h4{
 }
 /*Début de la section Hébergements à Marseille*/
 .BlockHébergements{
-	width: 1420px;
+	width: 1400px;
 	height: 650px ;
 
 }
@@ -247,7 +246,7 @@ h4{
 .fa-star{
 	width:20px;	height: 12px;
 	color: #0065FC;
-	font-size: 10px;
+	font-size: 12px;
 }
 .StarsGray{
 	color: #F2F2F2;
@@ -273,35 +272,32 @@ h4{
 }
 .HébergementsMarseille p{
 	font-size: 0.7em;
-	position: relative;
-	bottom: 13px;
-	left: 15px;
-	margin:0px 0px -12px 0px;
+	margin:-13px 0px 0px 15px;
 }
 .HébergementsMarseille h3{
 	font-size: 0.85em;
 	margin-left: 15px;
-	margin-top: -0px;
+	margin-top: -1px;
 }
 .BlocImgHébergement{
 	width: 250px;
 	height: 200px;
 	background-color: white;
-	margin-left: 30px;
+	margin-left: 33px;
 	margin-bottom: 30px;
 	position: relative;
-	right: 45px;
+	right: 40px;
 	border-radius: 1em;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
 .BlocImgHébergement .imgHomeDimension1{
-	width:243PX;
+	width:239PX;
 	height: 120px;
 	margin: 4px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg) center;
-	background-size: 250px 180px;
+	background-size: 250px 175px;
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension2{
@@ -321,7 +317,7 @@ h4{
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg) center;
-	background-size: 250px 180px;
+	background-size: 250px 173px;
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension4{
@@ -354,11 +350,12 @@ h4{
 	background-repeat: no-repeat;
 }
 .HébergementsMarseille .FlexStars{
-	position: relative;
-	left:15px;
-	top: 2px;
+	margin: 6px 0px 0px 15px;
 	display: flex;
-	width: 2px;
+	width: 64px;
+}
+.HébergementsMarseille .fa-star{
+	font-size: 12px;
 }
 /*Fin de la section Hébergements à Marseille*/
 /*Début de l'aside */
@@ -368,9 +365,10 @@ h4{
 	height: 650px;
 	border-radius: 1em;
 	background-color: #F2F2F2;
+	font-size: 1.1em;
 }
 .Trend h2{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	padding: 7%;
 	position: relative;
 	left: 20px;
@@ -384,13 +382,16 @@ h4{
 }
 .Trend p{ 
 	position: relative;
-	left: 10px;
+	left: 20px;
 	bottom: 0px;
+	display: flex;
 }
 .Trend1{
 	background-color: white;
-	width: 80%;
-	height: 21%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 370px;
+	height: 140px;
 	margin-left: 20px;
 	border-radius: 1em;
 	font-size: 0.7em;
@@ -399,18 +400,23 @@ h4{
 	left: 20px;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
-.Trend1Img{
-	width: 130px;
-	height: 140px;
-	border-bottom-left-radius: 1em;
+.Img1Trend{
+	background:url(Images/Hébergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) center;
+	background-size: 200px 140px;
+	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
-	padding:3px 2px 2px 4px;
+	border-bottom-left-radius: 1em ;
+	width: 130px;
+	height: 130px;
+	padding: 2px;
 	float: left;
+	margin-left: 3px;
+	margin-top: 3px; 
 }
 .Trend2{
 	background-color: white;
-	width: 80%;
-	height: 21%;
+	width: 370px;
+	height: 140px;
 	margin-left: 20px;
 	border-radius: 1em;
 	font-size: 0.7em;
@@ -419,18 +425,23 @@ h4{
 	left: 20px;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
-.Trend2Img{
-	width: 130px;
-	height: 140px;
-	border-bottom-left-radius: 1em;
+.Img2Trend{
+	background:url(Images/Hébergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg) center;
+	background-size: 200px 140px;
+	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
-	padding:3px 2px 2px 4px;
+	border-bottom-left-radius: 1em ;
+	width: 130px;
+	height: 130px;
+	padding: 2px;
 	float: left;
+	margin-left: 3px;
+	margin-top: 3px;
 }
 .Trend3{
 	background-color: white;
-	width: 80%;
-	height: 21%;
+	width: 370px;
+	height: 140px;
 	margin-left: 20px;
 	border-radius: 1em;
 	font-size: 0.7em;
@@ -438,25 +449,32 @@ h4{
 	left: 20px;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
-.Trend3Img{
-	width: 130px;
-	height: 140px;
-	border-bottom-left-radius: 1em;
+.Img3Trend{
+	background:url(Images/Hébergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg) center;
+	background-size: 150px 200px;
+	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
-	padding: 3px 2px 2px 4px;
+	border-bottom-left-radius: 1em ;
+	width: 130px;
+	height: 130px;
+	padding: 2px;
 	float: left;
+	margin-left: 3px;
+	margin-top: 3px;
 }
 .Trend h3{
 	position: relative;
-	left: 10px;
+	width: 180px;
+	left: 20px;
 	top: 10px;
 	padding-right: 10px;
+	display: flex;
 }
 .Trend .FlexStars{
-	width: 0;
+	width: 1px;
 	position: relative;
-	left: 10px;
-	top: 20px;
+	left: 20px;
+	top: 30px;
 	display: flex;
 }
 #Activités{
