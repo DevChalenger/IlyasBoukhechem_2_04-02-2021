@@ -159,6 +159,7 @@ p{
 	margin-bottom:15px;
 	text-align: center;
 	font-family: Raleway_Bold;
+	font-size: 0.9em;
 }
 
 .filtre{
@@ -173,6 +174,7 @@ p{
 	align-items: center;
 	border-radius: 2em;
 	z-index: auto;
+	
 }
   
 .blockIcone{	
@@ -223,10 +225,10 @@ h4{
 	margin-left: 10px;
 	
 	position: relative;
-	bottom: 2px;
+	bottom: -13px;
 }
 .fa-info{
-	font-size: 0.9em;
+	font-size: 0.7em;
 	color: #0065FC;
 	
 }
@@ -277,7 +279,7 @@ h4{
 .HébergementsMarseille h3{
 	font-size: 0.85em;
 	margin-left: 15px;
-	margin-top: -1px;
+	margin-top: 8px;
 }
 .BlocImgHébergement{
 	width: 250px;
@@ -369,10 +371,11 @@ h4{
 }
 .Trend h2{
 	font-size: 1.1em;
-	padding: 7%;
+	padding: 4%;
 	position: relative;
 	left: 20px;
-	margin-bottom: -15px;
+	margin-left: 2%;
+	margin-bottom: 20px;
 }
 .fa-chart-line{
 	float: right;
@@ -474,22 +477,135 @@ h4{
 	width: 1px;
 	position: relative;
 	left: 20px;
-	top: 30px;
+	top: 25px;
 	display: flex;
 }
-#Activités{
-	width: 1440px;
-	height: 650px ;
+.BlockActivités{
+	width: 1400px;
+	height: 575px ;
 }
-#Activités h2{
+.BlockActivités h2{
 	font-size: 1.1em;
 	padding: 20px 0px 0px 0px;
+	margin-bottom: 30px;
+}
+.Activités{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1400px;
+	height:450px ;
+	border: 2px solid black;
+}
+.Block1Activity{
+	width: 310px;
+	height: 450px;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
+}
+.Activités h3{
+	margin-left: 15px;
+	font-size: 0.9em;
+}
+.DobbleBlock{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 500px;
+}
+.Block2Activity{
+	width: 310px;
+	height: 250px;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
+}
+.Block3Activity{
+	width: 310px;
+	height: 150px;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
+	margin-bottom: 50px;
+}
+.Block4Activity{
+	width: 310px;
+	height: 450px;
+	border: 2px solid black;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
+}
+.Block5Activity{
+	width: 310px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
+}
+.Block6Activity{
+	width: 310px;
+	height: 250px;
+	border: 2px solid black;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
+}
+.Block1ActivityImg{
+	background:url(Images/Activité/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) top;
+	background-size: 690px 455px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em ;
+	width: 310px;
+	height: 400px;
+}	
+.Block2ActivityImg{
+	background:url(Images/Activité/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg) top;
+	background-size:320px 350px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em ;
+	width: 310px;
+	height: 200px;
+}	
+.Block3ActivityImg{
+	background:url(Images/Activité/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) top;
+	background-size: 310px 160px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em ;
+	width: 310px;
+	height: 100px;
+}
+.Block4ActivityImg{
+	background:url(Images/Activité/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg) top;
+	background-size: 300px 400px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em ;
+	width: 300px;
+	height: 150px;
+}
+.Block5ActivityImg{
+	background:url(Images/Activité/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg) top;
+	background-size: 300px 400px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em ;
+	width: 300px;
+	height: 150px;
+}
+.Block6ActivityImg{
+	background:url(Images/Activité/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg) top;
+	background-size: 300px 400px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em ;
+	width: 300px;
+	height: 150px;
 }
 footer{
 	margin: auto;
 	width: auto;
 	height: 200px ;
-	margin-top: 2em;
+	margin-top: 0em;
 	margin-bottom: -1%;
 	background-color: #F2F2F2;
 	display: flex;
@@ -501,16 +617,17 @@ footer h2{
 	font-size: 1em;
 	padding-top: 20px;
 	position: relative;
-	left: 50px;
+	left: 60px;
 	margin-right: 18em;
 }
 footer p{
 	font-size: 0.85em;
 	position: relative;
-	left: 50px;
+	left: 60px;
 }
 @media screen and (max-width: 500px){
 	body{
-		background-color:red;
+		width: 500px;
 	}
+	
 }
