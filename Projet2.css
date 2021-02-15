@@ -24,6 +24,7 @@ a{
 }
 p{
 	font-family: Raleway;
+	font-weight: lighter;
 }
 #BlockPage{
 	width: 1400px;
@@ -82,22 +83,29 @@ p{
 #head h3 span{
 	font-size: 0.72em;
 	font-family: Raleway;
+	font-weight:500 ;
 }
 /*Début de la Barre de recherche*/
 #BarreDeRecherche{
 	width: 240px;
-	height: 44px;
+	height: 50px;
 	position: relative;
-	bottom: 1px;
+	bottom: 2px;
 	left: 49px;
-	border:1px solid rgb(240,240,240);
-	color: black;
+	border:1px solid #F2F2F2;
 	font-size: 0.9em;
+}
+::placeholder{
+	opacity: 1;
+	padding-left: 10px;
+	font-family: Raleway_bold;
+}
+:-moz-placeholder{
+	margin-left: 10px;
 }
 #BarreDeRecherche::placeholder{
 	color: black;
-	padding:5% 0px 0px 5% ;
-	font-family: Raleway_bold;
+
 }
 #BarreDeRecherche:focus{
 	outline: none;
@@ -105,12 +113,14 @@ p{
 #Map{
 	border:2px solid rgba(0,0,0,0);
 	background-color: rgb(242,242,242);
-	height: 40px;
+	height: 46px;
 	width: 45px;
 	position: relative;
-	bottom: 46PX;
+	bottom: 52PX;
+	left: 1px;
 	border-top-left-radius:10px;
 	border-bottom-left-radius: 10px;
+	
 }
 .Map{
 	width: 14px;
@@ -121,16 +131,15 @@ p{
 #BouttonDeRecherche{
 	border:1px;
 	border-top-right-radius: 0.8em;
-	font-size: 0.85em;
+	font-size: 0.9em;
 	border-bottom-right-radius:0.8em;
 	background-color: #0065FC;
-	margin:5px 0px 0px -5px;
 	padding:2px 0px 1px 0px;
 	position: relative;
-	left: 49PX;
-	bottom: 2px;
-	height: 44.2px;
-	width: 100px;
+	left: 44PX;
+	bottom: 1.5px;
+	height: 50px;
+	width: 120px;
 	color: white;
 }
 #BouttonDeRecherche:focus{
@@ -196,21 +205,19 @@ p{
 	border-right: 3px solid #0065FC;
 	border-bottom: 3px solid #0065FC;
 	background-color: #DEEBFF;
-
 }
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
 	font-size: 1em;
     color: #0065FC;
 	display: flex;
-
 }
-
 /*Fin de l'en-tête*/
 h4{
 	font-size: 0.8em;
 	font-family: Raleway;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	font-weight: lighter;
 }
 .info{
 	float: left;
@@ -236,7 +243,6 @@ h4{
 .BlockHébergements{
 	width: 1400px;
 	height: 650px ;
-
 }
 .FlexHébergements{
 	display: flex;
@@ -261,7 +267,7 @@ h4{
 	float: left;
 }
 .HébergementsMarseille h2{
-	font-size: 1.1em;
+	font-size: 1.2em;
 	padding: 20px;
 	margin-left: 30px;
 }
@@ -285,17 +291,18 @@ h4{
 	width: 250px;
 	height: 200px;
 	background-color: white;
-	margin-left: 33px;
+	margin-left: 30px;
+	padding: 1px;
 	margin-bottom: 30px;
 	position: relative;
 	right: 40px;
 	border-radius: 1em;
-	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.15);
 }
 .BlocImgHébergement .imgHomeDimension1{
-	width:239PX;
+	width:244PX;
 	height: 120px;
-	margin: 4px;
+	margin: 3px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg) center;
@@ -303,9 +310,9 @@ h4{
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension2{
-	width:243PX;
+	width:244PX;
 	height: 120px;
-	margin: 4px;
+	margin: 3px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg) center;
@@ -313,9 +320,9 @@ h4{
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension3{
-	width:243PX;
+	width:244PX;
 	height: 120px;
-	margin: 4px;
+	margin: 3px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg) center;
@@ -323,9 +330,9 @@ h4{
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension4{
-	width:243PX;
+	width:244PX;
 	height: 120px;
-	margin: 4px;
+	margin: 3px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg) center;
@@ -333,22 +340,22 @@ h4{
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension5{
-	width:243PX;
+	width:244PX;
 	height: 120px;
-	margin: 4px;
+	margin: 3px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) center;
 	background-size: 250px 180px;
 	background-repeat: no-repeat;
 }.BlocImgHébergement .imgHomeDimension6{
-	width:243PX;
+	width:244PX;
 	height: 120px;
-	margin: 4px;
+	margin: 3px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
-	background: url(Images/Hébergement/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center;
-	background-size: 250px 380px;
+	background: url(Images/Hébergement/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center;
+	background-size:cover;
 	background-repeat: no-repeat;
 }
 .HébergementsMarseille .FlexStars{
@@ -370,7 +377,7 @@ h4{
 	font-size: 1.1em;
 }
 .Trend h2{
-	font-size: 1.1em;
+	font-size: 1.2em;
 	padding: 4%;
 	position: relative;
 	left: 20px;
@@ -385,7 +392,7 @@ h4{
 }
 .Trend p{ 
 	position: relative;
-	left: 20px;
+	left: 15px;
 	bottom: 0px;
 	display: flex;
 }
@@ -410,11 +417,9 @@ h4{
 	border-top-left-radius: 1em;
 	border-bottom-left-radius: 1em ;
 	width: 130px;
-	height: 130px;
-	padding: 2px;
+	height: 132px;
+	margin: 4px;
 	float: left;
-	margin-left: 3px;
-	margin-top: 3px; 
 }
 .Trend2{
 	background-color: white;
@@ -435,11 +440,9 @@ h4{
 	border-top-left-radius: 1em;
 	border-bottom-left-radius: 1em ;
 	width: 130px;
-	height: 130px;
-	padding: 2px;
+	height: 132px;
+	margin: 4px;
 	float: left;
-	margin-left: 3px;
-	margin-top: 3px;
 }
 .Trend3{
 	background-color: white;
@@ -459,24 +462,23 @@ h4{
 	border-top-left-radius: 1em;
 	border-bottom-left-radius: 1em ;
 	width: 130px;
-	height: 130px;
-	padding: 2px;
+	height: 132px;
+	margin: 4px;
 	float: left;
-	margin-left: 3px;
-	margin-top: 3px;
 }
 .Trend h3{
 	position: relative;
 	width: 180px;
-	left: 20px;
-	top: 10px;
+	left: 15px;
+	top: 15px;
+	margin-bottom:20px ;
 	padding-right: 10px;
 	display: flex;
 }
 .Trend .FlexStars{
 	width: 1px;
 	position: relative;
-	left: 20px;
+	left: 15px;
 	top: 25px;
 	display: flex;
 }
@@ -571,7 +573,7 @@ h4{
 }
 .Block4ActivityImg{
 	background:url(Images/Activité/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) center;
-	background-size:cover;
+	background-size:700px 400px;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
