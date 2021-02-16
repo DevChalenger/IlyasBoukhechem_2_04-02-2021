@@ -27,10 +27,10 @@ p{
 	font-weight: lighter;
 }
 #BlockPage{
-	width: 1400px;
+	width: auto;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 60px;
+	margin-right: 60px;
 	margin-top: 2.65%;
 	padding-left: 0%;
 	font-family: Raleway_Bold;
@@ -94,14 +94,11 @@ p{
 	left: 49px;
 	border:1px solid #F2F2F2;
 	font-size: 0.9em;
+	padding-left: 10px;
 }
 ::placeholder{
 	opacity: 1;
-	padding-left: 10px;
 	font-family: Raleway_bold;
-}
-:-moz-placeholder{
-	margin-left: 10px;
 }
 #BarreDeRecherche::placeholder{
 	color: black;
@@ -269,14 +266,14 @@ h4{
 .HébergementsMarseille h2{
 	font-size: 1.2em;
 	padding: 20px;
-	margin-left: 30px;
+	margin-left: 25px;
+	margin-bottom:18px;
 }
 .HébergementsMarseille .More{
-	font-size: 0.9em;
+	font-size: 18px;
 	padding: 20px;
-	position: relative;
-	bottom: 18px;
-	margin-left: 30px;
+	margin-top: -10px;
+	margin-left: 25px;
 }
 .HébergementsMarseille p{
 	font-size: 0.7em;
@@ -291,7 +288,7 @@ h4{
 	width: 250px;
 	height: 200px;
 	background-color: white;
-	margin-left: 30px;
+	margin-left: 31px;
 	padding: 1px;
 	margin-bottom: 30px;
 	position: relative;
@@ -346,7 +343,7 @@ h4{
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) center;
-	background-size: 250px 180px;
+	background-size: 250px auto;
 	background-repeat: no-repeat;
 }.BlocImgHébergement .imgHomeDimension6{
 	width:244PX;
@@ -355,7 +352,7 @@ h4{
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	background: url(Images/Hébergement/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center;
-	background-size:cover;
+	background-size:255px auto;
 	background-repeat: no-repeat;
 }
 .HébergementsMarseille .FlexStars{
@@ -382,7 +379,7 @@ h4{
 	position: relative;
 	left: 20px;
 	margin-left: 2%;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 .fa-chart-line{
 	float: right;
@@ -400,56 +397,56 @@ h4{
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	width: 370px;
-	height: 140px;
+	width: 360px;
+	height: 150px;
 	margin-left: 20px;
-	border-radius: 1em;
+	border-radius: 21px;
+	margin-bottom: 30px;
 	font-size: 0.7em;
-	margin-bottom: 8%;
 	position: relative;
 	left: 20px;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
 .Img1Trend{
 	background:url(Images/Hébergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) center;
-	background-size: 200px 140px;
+	background-size: 200px 152px;
 	background-repeat:no-repeat ;
-	border-top-left-radius: 1em;
-	border-bottom-left-radius: 1em ;
+	border-top-left-radius: 21px;
+	border-bottom-left-radius: 21px ;
 	width: 130px;
-	height: 132px;
+	height: 142px;
 	margin: 4px;
 	float: left;
 }
 .Trend2{
 	background-color: white;
 	width: 370px;
-	height: 140px;
+	height: 150px;
 	margin-left: 20px;
-	border-radius: 1em;
+	border-radius: 21px;
 	font-size: 0.7em;
-	margin-bottom: 10%;
+	margin-bottom: 30px;
 	position: relative;
 	left: 20px;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
 .Img2Trend{
 	background:url(Images/Hébergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg) center;
-	background-size: 200px 140px;
+	background-size: 200px 152px;
 	background-repeat:no-repeat ;
-	border-top-left-radius: 1em;
-	border-bottom-left-radius: 1em ;
+	border-top-left-radius: 21px;
+	border-bottom-left-radius: 21px ;
 	width: 130px;
-	height: 132px;
+	height: 142px;
 	margin: 4px;
 	float: left;
 }
 .Trend3{
 	background-color: white;
 	width: 370px;
-	height: 140px;
+	height: 150px;
 	margin-left: 20px;
-	border-radius: 1em;
+	border-radius: 21px;
 	font-size: 0.7em;
 	position: relative;
 	left: 20px;
@@ -459,10 +456,10 @@ h4{
 	background:url(Images/Hébergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg) center;
 	background-size: 150px 200px;
 	background-repeat:no-repeat ;
-	border-top-left-radius: 1em;
-	border-bottom-left-radius: 1em ;
+	border-top-left-radius: 21px;
+	border-bottom-left-radius: 21px ;
 	width: 130px;
-	height: 132px;
+	height: 142px;
 	margin: 4px;
 	float: left;
 }
@@ -477,9 +474,8 @@ h4{
 }
 .Trend .FlexStars{
 	width: 1px;
-	position: relative;
-	left: 15px;
-	top: 25px;
+	padding-left: 15px;
+	margin-top: 45px;
 	display: flex;
 }
 .BlockActivités{
@@ -545,27 +541,30 @@ h4{
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block1ActivityImg{
-	background:url(Images/Activité/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) center;
-	background-size: cover;
+	background:url(Images/Activité/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+	background-size: auto 450px;
 	background-repeat:no-repeat ;
+	background-position:50% 20% ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 	width: 310px;
 	height: 400px;
 }	
 .Block2ActivityImg{
-	background:url(Images/Activité/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg) center;
-	background-size:cover;
+	background:url(Images/Activité/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) ;
+	background-size:320px auto ;
 	background-repeat:no-repeat ;
+	background-position: 0% 40%;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 	width: 310px;
 	height: 200px;
 }	
 .Block3ActivityImg{
-	background:url(Images/Activité/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) center;
-	background-size: cover;
+	background:url(Images/Activité/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+	background-size: 310px auto;
 	background-repeat:no-repeat ;
+	background-position: 0% 30%;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 	width: 310px;
@@ -599,10 +598,8 @@ h4{
 	height: 150px;
 }
 footer{
-	margin: auto;
 	width: auto;
 	height: 200px ;
-	margin-top: 0em;
 	margin-bottom: -1%;
 	background-color: #F2F2F2;
 	display: flex;
@@ -622,9 +619,85 @@ footer p{
 	position: relative;
 	left: 60px;
 }
-@media screen and (max-width: 500px){
-	body{
-		width: 500px;
-	}
+@media all and (max-width:400px){
 	
+	body{
+		font-size: 1.3em;
+		width: 300px;
+		height: auto;
+		margin-left: 20px;
+		display: flex;
+		flex-direction: row;
+	}
+	.FlexFiltres{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.TitreFiltre{
+		width: 300px;
+		margin-bottom: 10px;
+	}
+	.HébergementsMarseille{
+		width: 100px;
+		height: auto;
+		flex-wrap: nowrap;
+		width: auto;
+		background-color: white;
+		margin-left: -50px;
+	}
+	.HébergementsMarseille h2{
+		margin-left: 50px;
+	}
+	#BlockPage{
+		width: 400px;
+		margin-right: -200px;
+		margin-left: 10px;
+
+	}
+	.BlocImgHébergement{
+		width: 300px;
+	}
+	.BlockHébergements{
+		width: 400px;
+		
+	}
+	.imgHomeDimension1{
+		display: block;
+	}
+	.Trend{
+		width: auto;
+	}
+	.Trend1{
+		width: 350px;
+		margin-left: -20px;
+	}
+	.BlockActivités{
+		width: 400px;
+	}
+	.Activités{
+		width: 400px;
+		display: flex;
+		flex-wrap: wrap;
+		float: none;
+	}
+	li{
+		position: relative;
+		left: 100px;
+	}
+	.h4{
+		float:right ;
+		display: flex;
+		flex-wrap: wrap;
+		width: 10px;
+	}
+	footer{
+		width:auto;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #F2F2F2;
+		font-size:1.4em ;
+		position:absolute;
+		top:4700px;
+	}
 }
