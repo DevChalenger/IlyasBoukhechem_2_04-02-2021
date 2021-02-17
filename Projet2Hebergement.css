@@ -1,0 +1,126 @@
+.BlockHébergements{
+	width: 1400px;
+	height: 650px ;
+}
+.FlexHébergements{
+	display: flex;
+	margin-left: 50px;
+	flex-direction: row ;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.fa-star{
+	width:20px;	height: 12px;
+	color: #0065FC;
+	font-size: 12px;
+}
+.StarsGray{
+	color: #F2F2F2;
+}
+.HébergementsMarseille{
+	background-color: #F2F2F2;
+	width: 900px;
+	height: 650px;
+	border-radius: 1em;
+	float: left;
+}
+.HébergementsMarseille h2{
+	font-size: 1.2em;
+	padding: 20px;
+	margin-left: 25px;
+	margin-bottom:18px;
+}
+.HébergementsMarseille .More{
+	font-size: 18px;
+	padding: 20px;
+	margin-top: -10px;
+	margin-left: 25px;
+}
+.HébergementsMarseille p{
+	font-size: 0.7em;
+	margin:-13px 0px 0px 15px;
+}
+.HébergementsMarseille h3{
+	font-size: 0.85em;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+.BlocImgHébergement{
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	margin-left: 31px;
+	padding: 1px;
+	margin-bottom: 30px;
+	position: relative;
+	right: 40px;
+	border-radius: 1em;
+	box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.15);
+}
+.BlocImgHébergement .imgHomeDimension1{
+	width:244PX;
+	height: 120px;
+	margin: 3px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg) center;
+	background-size: 250px 175px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension2{
+	width:244PX;
+	height: 120px;
+	margin: 3px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg) center;
+	background-size: 250px 180px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension3{
+	width:244PX;
+	height: 120px;
+	margin: 3px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg) center;
+	background-size: 250px 173px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension4{
+	width:244PX;
+	height: 120px;
+	margin: 3px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg) center;
+	background-size: 250px 240px;
+	background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension5{
+	width:244PX;
+	height: 120px;
+	margin: 3px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) center;
+	background-size: 250px auto;
+	background-repeat: no-repeat;
+}.BlocImgHébergement .imgHomeDimension6{
+	width:244PX;
+	height: 120px;
+	margin: 3px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background: url(Images/Hébergement/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center;
+	background-size:255px auto;
+	background-repeat: no-repeat;
+}
+.HébergementsMarseille .FlexStars{
+	margin: 6px 0px 0px 15px;
+	display: flex;
+	width: 64px;
+}
+.HébergementsMarseille .fa-star{
+	font-size: 12px;
+}

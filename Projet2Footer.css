@@ -1,0 +1,22 @@
+footer{
+	width: auto;
+	height: 200px ;
+	margin-bottom: -1%;
+	background-color: #F2F2F2;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content:flex-start ;
+}
+footer h2{
+	font-size: 1em;
+	padding-top: 20px;
+	position: relative;
+	left: 60px;
+	margin-right: 18em;
+}
+footer p{
+	font-size: 0.85em;
+	position: relative;
+	left: 60px;
+}

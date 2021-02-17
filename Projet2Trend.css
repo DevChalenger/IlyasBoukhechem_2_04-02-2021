@@ -1,0 +1,90 @@
+.Trend{
+	float: right;
+	width: 450px;
+	height: 650px;
+	border-radius: 1em;
+	background-color: #F2F2F2;
+	font-size: 1.1em;
+}
+.Trend h2{
+	font-size: 1.2em;
+	padding: 4%;
+	position: relative;
+	left: 20px;
+	margin-left: 2%;
+	margin-bottom: 15px;
+}
+.fa-chart-line{
+	float: right;
+	width: 1.1em;
+	position: relative;
+	right:1.5em
+}
+.Trend p{ 
+	position: relative;
+	left: 15px;
+	bottom: 0px;
+	display: flex;
+}
+.TrendBlock{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 370px;
+	height: 150px;
+	margin-left: 20px;
+	border-radius: 21px;
+	margin-bottom: 30px;
+	font-size: 0.7em;
+	position: relative;
+	left: 20px;
+	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
+}
+.Img1Trend{
+	background:url(Images/Hébergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) center;
+	background-size: 200px 152px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 21px;
+	border-bottom-left-radius: 21px ;
+	width: 130px;
+	height: 142px;
+	margin: 4px;
+	float: left;
+}
+.Img2Trend{
+	background:url(Images/Hébergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg) center;
+	background-size: 200px 152px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 21px;
+	border-bottom-left-radius: 21px ;
+	width: 130px;
+	height: 142px;
+	margin: 4px;
+	float: left;
+}
+.Img3Trend{
+	background:url(Images/Hébergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg) center;
+	background-size: 150px 200px;
+	background-repeat:no-repeat ;
+	border-top-left-radius: 21px;
+	border-bottom-left-radius: 21px ;
+	width: 130px;
+	height: 142px;
+	margin: 4px;
+	float: left;
+}
+.Trend h3{
+	position: relative;
+	width: 180px;
+	left: 15px;
+	top: 15px;
+	margin-bottom:20px ;
+	padding-right: 10px;
+	display: flex;
+}
+.Trend .FlexStars{
+	width: 1px;
+	padding-left: 15px;
+	margin-top: 45px;
+	display: flex;
+}
