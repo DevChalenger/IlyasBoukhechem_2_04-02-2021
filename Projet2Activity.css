@@ -1,5 +1,5 @@
 .BlockActivités{
-	width: 1400px;
+	width: auto;
 	height: 575px ;
 }
 .BlockActivités h2{
@@ -74,7 +74,7 @@
 	background:url(Images/Activité/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) ;
 	background-size:320px auto ;
 	background-repeat:no-repeat ;
-	background-position: 0% 40%;
+	background-position: 0% 38%;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 	width: 310px;
@@ -91,9 +91,10 @@
 	height: 100px;
 }
 .Block4ActivityImg{
-	background:url(Images/Activité/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) center;
-	background-size:700px 400px;
+	background:url(Images/Activité/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) ;
+	background-size:700px auto;
 	background-repeat:no-repeat ;
+	background-position: 50% 10%;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 	width: 310px;
@@ -109,9 +110,10 @@
 	height: 150px;
 }
 .Block6ActivityImg{
-	background:url(Images/Activité/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) top;
-	background-size: 320px 200px;
+	background:url(Images/Activité/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+	background-size:cover;
 	background-repeat:no-repeat ;
+	background-position: 0% 20%;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 	width: 310px;

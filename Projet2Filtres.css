@@ -11,7 +11,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 950px;
+	width: 975px;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
@@ -31,24 +31,25 @@
 	border-radius: 2em;
 	z-index: auto;
 	
-} 
+}
+.filtre:hover{
+    border-top: 3px solid #0065FC;
+	border-right: 3px solid #0065FC;
+	border-bottom: 3px solid #0065FC;
+    border-left:3px solid #0065FC ;
+    background-color: #DEEBFF;
+}
 .blockIcone{	
 	background-color: #DEEBFF;
 	background-size: auto;
 	border-radius: 100%;
 	width: 30px;
 	height: 30px;
-	margin:-3px 11px -3px -3px;
-	padding: 0.5em;
+	margin:-3px 10px -3px -6px;
+	padding: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-.blockMoney:hover,.blockFamily:hover,.blockHeart:hover,.blockDog:hover{
-	border-top: 3px solid #0065FC;
-	border-right: 3px solid #0065FC;
-	border-bottom: 3px solid #0065FC;
-	background-color: #DEEBFF;
 }
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
 	font-size: 1em;
