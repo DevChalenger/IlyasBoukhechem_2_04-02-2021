@@ -10,10 +10,11 @@ footer{
 	background-color: #F2F2F2;
 }
 footer h2{
+    width: 160px;
 	font-size: 1em;
 	padding-top: 20px;
 	margin-left:60px ;
-	margin-right: 310px;
+	margin-right: 250px;
 }
 .FooterBlock{
     width: auto;
