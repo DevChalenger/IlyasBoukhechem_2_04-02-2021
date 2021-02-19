@@ -18,9 +18,9 @@
 	color: #F2F2F2;
 }
 .HébergementsMarseille{
-	background-color: #F2F2F2;
-	width: 900px;
-	height: 650px;
+	
+	
+	margin: auto;
 	border-radius: 1em;
 	float: left;
 }
@@ -123,4 +123,11 @@
 }
 .HébergementsMarseille .fa-star{
 	font-size: 12px;
+}
+@media all and (min-width:501px){
+	.HébergementsMarseille{
+		background-color: #F2F2F2;
+		width: 900px;
+		height: 650px;
+	}
 }

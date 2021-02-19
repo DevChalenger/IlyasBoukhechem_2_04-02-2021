@@ -1,84 +1,58 @@
-@media screen and (max-width:500px){	
-	body{
-		font-size: 1.3em;
-		width: auto;
-		height: auto;
-		margin-left: 20px;
-		display: flex;
-		flex-direction: row;
-	}
-	.FlexFiltres{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.TitreFiltre{
-		width: 300px;
-		margin-bottom: 10px;
-	}
-	.HébergementsMarseille{
-		width: 100px;
-		height: auto;
-		flex-wrap: nowrap;
-		width: auto;
-		background-color: white;
-		margin-left: -50px;
-	}
-	.HébergementsMarseille h2{
-		margin-left: 50px;
-	}
-	#BlockPage{
-		width: 400px;
-		margin-right: -200px;
-		margin-left: 10px;
-
-	}
-	footer p{
-		margin-right: -50px;
-	}
-	.BlocImgHébergement{
-		width: 300px;
-	}
-	.BlockHébergements{
-		width: 400px;
-		
-	}
-	.imgHomeDimension1{
-		display: block;
-	}
-	.Trend{
-		width: auto;
-	}
-	.Trend1{
-		width: 350px;
-		margin-left: -20px;
-	}
-	.BlockActivités{
-		width: 400px;
-	}
-	.Activités{
-		width: 400px;
-		display: flex;
-		flex-wrap: wrap;
-		float: none;
-	}
-	li{
-		position: relative;
-		left: 100px;
-	}
-	.h4{
-		float:right ;
-		display: flex;
-		flex-wrap: wrap;
-		width: 10px;
-	}
-	footer{
-		width:auto;
-		height: auto;
-		display: flex;
-		flex-wrap: wrap;
-		background-color: #F2F2F2;
-		font-size:1.4em ;
-		position:absolute;
-		top:4700px;
-	}
+@media all and (max-width:500px){	
+    body{
+        width: auto;
+        height: auto;
+    }
+    #BlockPage{
+        width: auto;
+        height: auto;
+        margin: auto;
+        float: none;
+        font-size: 1.2em;
+        margin-left: -8px;
+    }
+    .FlexFiltres{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .Trend{
+        width: 100%;
+        padding-right:0px ;
+    }
+    .filtre{
+        height: 50px ;
+    }
+    .BlockIcone{
+        width: 500px; 
+    }
+    .HébergementsMarseille{
+       display:flex;
+       flex-direction: column;
+       margin-left: -50px;
+    }
+    .BlocImgHébergement{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .TitreFiltre{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .BlockActivités{
+        display: flex;
+        margin-left: -10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 1300px;
+        
+    }
+    .FooterBlock{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
