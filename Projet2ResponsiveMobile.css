@@ -1,14 +1,18 @@
-@media all and (max-width:500px){	
+@media (max-width:500px){	
     body{
         width: auto;
         height: auto;
+        margin:auto ;
+        margin-left: 5px;
+        margin-right: -0px;
     }
     #BlockPage{
-        width: auto;
-        height: auto;
-        margin: auto;
+        width: 500px;
+        margin-left:100px;
+        display: flex;
+        flex-direction: column;
         float: none;
-        font-size: 1.2em;
+        font-size: 1.3em;
         margin-left: -8px;
     }
     .FlexFiltres{
@@ -17,8 +21,8 @@
         width: 300px;
     }
     .Trend{
-        width: 100%;
-        padding-right:0px ;
+        width: auto;
+        margin-right:-60px ;
     }
     .filtre{
         height: 50px ;
@@ -27,9 +31,11 @@
         width: 500px; 
     }
     .HébergementsMarseille{
+       width: auto;
        display:flex;
        flex-direction: column;
        margin-left: -50px;
+       margin-bottom: 1000px;
     }
     .BlocImgHébergement{
         display: flex;
@@ -41,18 +47,23 @@
     }
     .BlockActivités{
         display: flex;
-        margin-left: -10px;
+        flex-direction: column;
+        margin-left: 100px;
+        position: relative;
+        top: 800px;
     }
     footer{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: 1300px;
-        
+        width: 200px;
+        padding-right: 20px;
+        margin-right: 50px;
+        padding-left: 10px;
+        margin-left: -0px;
+        margin-top:2150px;
     }
     .FooterBlock{
-        width: auto;
-        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-left:60px;
     }
 }

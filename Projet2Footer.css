@@ -3,26 +3,32 @@ footer{
     height: auto;
     margin-left: -60px;
     margin-right: -60px;
-    padding-bottom: 2%;
-    padding-right: 121px;
 	margin-bottom: -1%;
+    padding-bottom: 20px;
     font-size: 0.9em;
+    width: auto;    
 	background-color: #F2F2F2;
 }
 footer h2{
-    width: 160px;
+    width: 200px;
 	font-size: 1em;
 	padding-top: 20px;
-	margin-left:60px ;
-	margin-right: 250px;
 }
 .FooterBlock{
-    width: auto;
-    display: flex;
-    flex-direction: row;
+   width: auto; 
+   padding-right: 120px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-content: center;
+   position: relative;
+   right: 70px;
+}
+footer section{
+    width: 250px;
+    margin-left: 50px;
 }
 footer p{
-    width: 250px;
+    width: auto;
 	font-size: 0.85em;
-	margin-left: 60px;
 }

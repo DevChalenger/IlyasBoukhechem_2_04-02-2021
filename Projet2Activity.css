@@ -1,6 +1,8 @@
 .BlockActivités{
 	width: auto;
 	height: 575px ;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 .BlockActivités h2{
 	font-size: 1.1em;
