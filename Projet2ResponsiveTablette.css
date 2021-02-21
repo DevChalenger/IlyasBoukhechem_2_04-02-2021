@@ -1,0 +1,23 @@
+@media (max-width:1000px){
+    #BlockPage{
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .Trend{
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .TrendBlock{
+       width: auto;
+       height: auto;
+       
+    }
+    .Trend h2{
+       margin-left: -50px; margin-bottom: 40px;
+    }
+}

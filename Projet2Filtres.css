@@ -33,10 +33,6 @@
 	
 }
 .filtre:hover{
-    border-top: 3px solid #0065FC;
-	border-right: 3px solid #0065FC;
-	border-bottom: 3px solid #0065FC;
-    border-left:3px solid #0065FC ;
     background-color: #DEEBFF;
 }
 .blockIcone{	

@@ -1,7 +1,4 @@
-.BlockHébergements{
-	width: auto;
-	height: 650px ;
-}
+
 .FlexHébergements{
 	display: flex;
 	margin-left: 50px;
@@ -122,7 +119,7 @@
 .HébergementsMarseille .fa-star{
 	font-size: 12px;
 }
-@media all and (min-width:501px){
+@media (min-width:501px){
 	.HébergementsMarseille{
 		background-color: #F2F2F2;
 		width: 900px;

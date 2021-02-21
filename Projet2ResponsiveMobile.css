@@ -1,69 +1,79 @@
-@media (max-width:500px){	
+@media screen and (max-width:500px){	
     body{
         width: auto;
-        height: auto;
-        margin:auto ;
-        margin-left: 5px;
-        margin-right: -0px;
     }
     #BlockPage{
         width: 500px;
-        margin-left:100px;
         display: flex;
         flex-direction: column;
         float: none;
-        font-size: 1.3em;
-        margin-left: -8px;
+        font-size:100%;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        flex-direction: column ;
+        
     }
     .FlexFiltres{
         display: flex;
         flex-wrap: wrap;
-        width: 300px;
+        width: 100px;
     }
     .Trend{
         width: auto;
-        margin-right:-60px ;
     }
-    .filtre{
-        height: 50px ;
-    }
-    .BlockIcone{
-        width: 500px; 
+    .TrendBlock{
+        width: 90%;
     }
     .HébergementsMarseille{
        width: auto;
        display:flex;
        flex-direction: column;
        margin-left: -50px;
-       margin-bottom: 1000px;
     }
     .BlocImgHébergement{
-        display: flex;
-        flex-wrap: wrap; 
+        width: auto;
     }
     .TitreFiltre{
-        width: 400px;
+        width: 370px;
         margin-bottom: 20px;
     }
+    .filtre{
+        margin-right: -10px;
+    }
     .BlockActivités{
+        width: auto;
         display: flex;
+        margin-left:auto;
+        margin-right: auto;
         flex-direction: column;
-        margin-left: 100px;
-        position: relative;
-        top: 800px;
+        justify-content: center;
+    }
+    .BlockActivityMobile{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+        border: 2px solid black; 
+     
+    }
+    .DobbleBlock{
+        height: 75px;
+    }
+    .BlockActivityImgMobile{
+           width: 100%;
+         height: 100px;
     }
     footer{
-        width: 200px;
-        padding-right: 20px;
-        margin-right: 50px;
-        padding-left: 10px;
-        margin-left: -0px;
-        margin-top:2150px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:1400px ; 
+        margin-right:auto ;
     }
     .FooterBlock{
+        margin-left: 100px;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-left:60px;
     }
 }

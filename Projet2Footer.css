@@ -1,12 +1,12 @@
 footer{
-	width: auto;
+	width: 100%;
     height: auto;
-    margin-left: -60px;
-    margin-right: -60px;
+    margin-right: auto;
+    margin-left: auto;
 	margin-bottom: -1%;
+    margin-top: 50px;
     padding-bottom: 20px;
-    font-size: 0.9em;
-    width: auto;    
+    font-size: 0.9em; 
 	background-color: #F2F2F2;
 }
 footer h2{
@@ -15,18 +15,11 @@ footer h2{
 	padding-top: 20px;
 }
 .FooterBlock{
-   width: auto; 
-   padding-right: 120px;
    display: flex;
-   flex-direction: row;
    justify-content: space-around;
-   align-content: center;
+   margin-right: 150px;
    position: relative;
-   right: 70px;
-}
-footer section{
-    width: 250px;
-    margin-left: 50px;
+   right: 60px;
 }
 footer p{
     width: auto;

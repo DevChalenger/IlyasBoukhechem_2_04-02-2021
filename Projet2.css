@@ -12,7 +12,9 @@
 
 }
 body{
-	width: auto;
+	width: 1519px;
+	margin: auto;
+	height: auto;
 	font-size: 1.2em;
 	font-family: Raleway_Bold;
 }
@@ -26,7 +28,7 @@ p{
 }
 #BlockPage{
 	width: 1400px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: Raleway_Bold;
 }

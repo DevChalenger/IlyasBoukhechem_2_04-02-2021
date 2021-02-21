@@ -2,18 +2,12 @@
 	width: 110px;
     margin-top: 20px;
 	float: left;
-}
-nav{
-	margin-right: 120px;
-}
+}	
 #head ul{
 	width: auto;
 	display: flex;
 	font-size: 0.8em;
 	justify-content: flex-end;
-	position: relative;
-	margin-right: -100px;
-	left: 120px;
 }
 #head li{
 	display: flex;
