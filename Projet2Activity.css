@@ -15,7 +15,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: auto;
+	width: 100%;
 	height:	auto ;
 	margin-top: px;
 }

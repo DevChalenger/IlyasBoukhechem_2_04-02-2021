@@ -1,6 +1,5 @@
 .Trend{
 	width: auto;
-
 	float: right;
 	background-color: #F2F2F2;
 	font-size: 1.1em;
@@ -27,9 +26,10 @@
 .TrendBlock{
 	background-color: white;
     margin-right: auto;
-	width: 83%;
+	width: auto;
 	height: 150px;
-	margin-left: auto;
+	margin-right: 9%;
+	margin-left: 9%;
 	border-radius: 21px;
 	margin-bottom: 30px;
 	font-size: 0.7em;
