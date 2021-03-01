@@ -1,114 +1,120 @@
 
 .FlexHébergements{
+	border: 0px solid black;
+	margin-left: 15px;
+	margin-right: 15px;
 	display: flex;
-	margin-left: 50px;
 	flex-direction: row ;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 .fa-star{
-	width:20px;	height: 12px;
 	color: #0065FC;
-	font-size: 12px;
+	font-size: 0.6em;
 }
 .StarsGray{
 	color: #F2F2F2;
 }
+.BlockHébergements{
+	border: 2px solid black;
+	padding: auto;
+}
 .HébergementsMarseille{	
+	max-width: 1200px;
+	max-height: 600px;
 	width: auto;
-	margin: auto;
-	float: left;
+	
 }
 .HébergementsMarseille h2{
 	font-size: 1.2em;
-	padding: 20px;
-	margin-left: 25px;
-	margin-bottom:18px;
+	padding: 40px 0px 0px 0px;
+	margin-left: 40px;
+	margin-bottom:30px;
+	margin-top: -0px;
 }
 .HébergementsMarseille .More{
 	font-size: 18px;
 	padding: 20px;
 	margin-top: -10px;
-	margin-left: 25px;
+	margin-left: 20px;
+	margin-bottom: 0;
 }
 .HébergementsMarseille p{
 	font-size: 0.7em;
 	margin:-13px 0px 0px 15px;
 }
 .HébergementsMarseille h3{
-	font-size: 0.85em;
+	font-size: 1em;
 	margin-left: 15px;
 	margin-top: 8px;
 }
 .BlocImgHébergement{
-	width: 250px;
-	height: 200px;
+	width: 28%;
+	max-width:300px;
+	height: 11vw;
+	max-height: 200px;
 	background-color: white;
-	margin-left: 31px;
-	padding: 1px;
 	margin-bottom: 30px;
-	position: relative;
-	right: 40px;
-	border-radius: 1em;
+	border-radius: 10%;
 	box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.15);
 }
 .BlocImgHébergement .imgHomeDimension1{
-	width:244PX;
-	height: 120px;
-	margin: 3px;
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
-	background: url(Images/Hébergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg) center;
-	background-size: 250px 175px;
+	width:96.8%;
+	height: 55%;
+	margin:1.6%;
+	border-top-left-radius: 1.35em;
+	border-top-right-radius: 1.35em;
+	background: url(Images/Hébergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg) 50% 35%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension2{
-	width:244PX;
-	height: 120px;
-	margin: 3px;
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
+	width:97.6%;
+	height: 55%;
+	margin: 1.2%;
+	border-top-left-radius: 1.35em;
+	border-top-right-radius: 1.35em;
 	background: url(Images/Hébergement/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg) center;
-	background-size: 250px 180px;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension3{
-	width:244PX;
-	height: 120px;
-	margin: 3px;
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
+	width:97.6%;
+	height: 55%;
+	margin: 1.2%;
+	border-top-left-radius: 1.35em;
+	border-top-right-radius: 1.35em;
 	background: url(Images/Hébergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg) center;
-	background-size: 250px 173px;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension4{
-	width:244PX;
-	height: 120px;
-	margin: 3px;
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
+	width:97.6%;
+	height: 55%;
+	margin: 1.2%;
+	border-top-left-radius: 1.35em;
+	border-top-right-radius: 1.35em;
 	background: url(Images/Hébergement/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg) center;
-	background-size: 250px 240px;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .BlocImgHébergement .imgHomeDimension5{
-	width:244PX;
-	height: 120px;
-	margin: 3px;
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
+	width:97.6%;
+	height: 55%;
+	margin: 1.2%;
+	border-top-left-radius: 1.35em;
+	border-top-right-radius: 1.35em;
 	background: url(Images/Hébergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) center;
-	background-size: 250px auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 }.BlocImgHébergement .imgHomeDimension6{
-	width:244PX;
-	height: 120px;
-	margin: 3px;
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
-	background: url(Images/Hébergement/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center;
-	background-size:255px auto;
+	width:97.6%;
+	height: 55%;
+	margin: 1.2%;
+	border-top-left-radius: 1.35em;
+	border-top-right-radius: 1.35em;
+	background: url(Images/Hébergement/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) 30% 55%;
+	background-size: 106%;
 	background-repeat: no-repeat;
 }
 .HébergementsMarseille .FlexStars{
@@ -123,8 +129,8 @@
 }
 @media (min-width:1001px){
 	.HébergementsMarseille{
-		width: 900px;
-		height: 650px;
-		border-radius: 1em;
+		width: 65%;
+		height: 100%;
+		border-radius: 1.35em;
 	}
 }

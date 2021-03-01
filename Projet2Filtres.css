@@ -11,7 +11,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 975px;
+	width: 70%;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
@@ -39,8 +39,8 @@
 	background-color: #DEEBFF;
 	background-size: auto;
 	border-radius: 100%;
-	width: 30px;
-	height: 30px;
+	width: 2em;
+	height: 2em;
 	margin:-3px 10px -3px -6px;
 	padding: 10px;
 	display: flex;

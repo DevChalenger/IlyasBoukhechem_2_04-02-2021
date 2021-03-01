@@ -1,14 +1,20 @@
 .Trend{
-	width: auto;
 	float: right;
+	width: 27%;
+	max-width: 600px;
+	max-height:480px ;
+	height:auto;
 	background-color: #F2F2F2;
 	font-size: 1.1em;
+	border: 2px solid black;
+	padding-bottom: 5%;
 }
 .Trend h2{
 	font-size: 1.2em;
-	padding: 4%;
-	margin-left: 30px;
-	margin-bottom: 15px;
+	padding: 40px 0 0 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 0px;
 }
 .fa-chart-line{
 	float: right;
@@ -21,58 +27,56 @@
 	display: flex;
     padding-left: 15px;
     margin-left: 100px;
-    width: 150px;
+    width: 11vw;
 }
 .TrendBlock{
 	background-color: white;
-    margin-right: auto;
-	width: auto;
-	height: 150px;
+	width: 82%;
+	height: 8em;
+	max-height: 200px;
+	margin-bottom: 2em;
 	margin-right: 9%;
 	margin-left: 9%;
-	border-radius: 21px;
-	margin-bottom: 30px;
+	border-radius: 1em;
 	font-size: 0.7em;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
 }
 .Img1Trend{
 	background:url(Images/Hébergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) center;
-	background-size: 200px 152px;
+	background-size: cover;
 	background-repeat:no-repeat ;
-	border-top-left-radius: 21px;
-	border-bottom-left-radius: 21px ;
-	width: 130px;
-	height: 142px;
-	margin: 4px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em ;
+	width: 35%;
+	height:96% ;
+	margin: 1%;
 	float: left;
 }
 .Img2Trend{
 	background:url(Images/Hébergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg) center;
-	background-size: 200px 152px;
+	background-size: cover;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 21px;
 	border-bottom-left-radius: 21px ;
-	width: 130px;
-	height: 142px;
-	margin: 4px;
+	width: 35%;
+	height: 96%;
+	margin: 1%;
 	float: left;
 }
 .Img3Trend{
 	background:url(Images/Hébergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg) center;
 	background-size: 150px 200px;
 	background-repeat:no-repeat ;
-	border-top-left-radius: 21px;
+	border-top-left-radius: 0.7em;
 	border-bottom-left-radius: 21px ;
-	width: 130px;
-	height: 142px;
-	margin: 4px;
+	width: 35%;
+	height: 96%;
+	margin: 1%;
 	float: left;
 }
 .Trend h3{
 	position: relative;
 	width: 180px; 
-    padding-top: 20px;
-    margin-bottom: -10px;
     padding-left: 15px;
     margin-left: 100px;
 	display: flex;
@@ -85,8 +89,7 @@
 }
 @media (min-width:1001px){
     .Trend{
-        width: 450px; 
-        height: 650px;
+        width: 32%; 
         border-radius: 1em;
     }
 }

@@ -1,5 +1,5 @@
 .BlockActivités{
-	width: auto;
+	width: 100%;
 	height: auto ;
 	margin-bottom: -20px;
 }
@@ -8,19 +8,18 @@
 	padding: 20px 0px 0px 0px;
 	margin-bottom: 50px;
 	margin-top: 0px;
-	position: relative;
-	top: 25px;
 }
 .Activités{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
+	border: 2px solid black;
 	height:	auto ;
 	margin-top: px;
 }
 .Block1Activity{
-	width: auto;
+	width: 22%;
 	height: auto;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
@@ -30,25 +29,27 @@
 	font-size: 0.9em;
 }
 .DobbleBlock{
+	width: 22%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	height: auto;
 }
 .Block2Activity{
-	width: auto;
+	width: 100%;
 	height: auto;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block3Activity{
-	width: auto;
+	width: 100%;
 	height: auto;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block4Activity{
-	width: auto;
+	width: 22%;
 	height: auto;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
@@ -66,16 +67,16 @@
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block1ActivityImg{
-	width: 310px;
-	height: 400px;
+	width: auto;
+	height: 90%;
 	background:url(Images/Activité/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) 49% 15%;
-	background-size:  auto;
+	background-size:  100% 100%; 
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }	
 .Block2ActivityImg{
-	width: 310px;
+	width: auto;
 	height: 200px;
 	background:url(Images/Activité/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) 0% 40%;
 	background-size: cover;
@@ -84,16 +85,16 @@
 	border-top-right-radius: 1em ;
 }	
 .Block3ActivityImg{
-	width: 310px;
+	width: auto;
 	height: 100px;
 	background:url(Images/Activité/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) 0% 30%;
-	background-size: cover;
+	background-size: 100%;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }
 .Block4ActivityImg{
-	width: 310px;
+	width: auto;
 	height: 400px;
 	background:url(Images/Activité/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)50% 30%;
 	background-size:auto 118%;
@@ -102,7 +103,7 @@
 	border-top-right-radius: 1em ;
 }
 .Block5ActivityImg{
-	width: 310px;
+	width: auto;
 	height: 150px;
 	background:url(Images/Activité/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg)50% 00%;
 	background-size:105% auto;
@@ -111,7 +112,7 @@
 	border-top-right-radius: 1em ;
 }
 .Block6ActivityImg{
-	width: 310px;
+	width: auto;
 	height: 150px;
 	background:url(Images/Activité/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg)0% 20%;
 	background-size:cover;

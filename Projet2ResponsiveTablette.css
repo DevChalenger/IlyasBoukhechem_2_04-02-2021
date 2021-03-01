@@ -6,6 +6,23 @@
         flex-direction: column;
         font-size: 1.2em;
     }
+    #head h3{
+        text-align: center;
+    }
+    #BarreDeRecherche{
+        width: 620px;
+        margin-left: 370px;
+    }
+    #Map{
+        margin-left:370px ;
+    }
+    .fa-map-marker-alt{
+        margin-bottom: 20px;
+    }
+    .filtres{
+        width: 92%;
+        margin-left: 2px;
+    }
     .Trend{
         width: auto;
         height: 350px;
@@ -29,32 +46,32 @@
         height: 300px;
     }
     .BlocImgHébergement .imgHomeDimension1{
-        width:400px;
+        width:394px;
         height: 200px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension2{
-        width:400px;
+        width:394px;
         height: 200px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension3{
-        width:400px;
+        width:394px;
         height: 200px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension4{
-        width:400px;
+        width:394px;
         height: 200px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension5{
-        width:400px;
+        width:394px;
         height: 200px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension6{
-        width:400px;
+        width:394px;
         height: 200px;
         background-size: cover;
     }
