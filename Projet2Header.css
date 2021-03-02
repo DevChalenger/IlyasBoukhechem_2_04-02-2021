@@ -1,5 +1,5 @@
 #ReserviaLogo{
-	width: 5vw;
+	width: 8%;
     margin-top: 20px;
 	max-height: 50px;
 	float: left;
@@ -7,34 +7,40 @@
 #head ul{
 	width: auto;
 	display: flex;
-	font-size: 0.8em;
+	margin-top: -0px;
+	font-size: 0.9em;
 	justify-content: flex-end;
+}
+.FlexLink{
+	display: flex;
+	
 }
 #head li{
 	display: flex;
-	margin:10px 0px -50px 50px;
-	padding: 0px 0px 50px 0px;
+	margin:px 0px 0 50px;
 }
 #head li a{
 	text-decoration:none;
 	font-weight: 600;
 	display: inline-block;
 	padding:40px 20px 0px 20px;
-	margin:-17.5% 0px 25px 0px;
+	margin: 0px 2em 0px 0px;
 }
 .Hébergement{
 	font-family: Raleway;
-	color:rgb(0,101,252)  ;
+	color:rgb(0,101,252);
 	border-top: 3px solid rgb(0,101,252);
 }
 .Inscription{
 	color:rgb(0,101,252);
 	font-size: 1.1em;
 	font-family: Raleway_Bold;
+	border-top: 3px solid white;
 }
 .Activité{
 	color: black;
 	font-family: Raleway;
+	border-top: 3px solid white;
 }
 #head h3{
 	width: auto;
@@ -116,6 +122,9 @@ h4{
 	font-weight: lighter;
 	
 }
+.Search{
+	display: none;
+}
 .info{
 	float: left;
 	display: flex;
@@ -123,6 +132,7 @@ h4{
 	align-items: center;
 	border: 2px solid #F2F2F2;
 	border-radius: 100%;
+	margin-top: -0.5%;
 	width: 20px;
 	height: 20px;
 	

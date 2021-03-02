@@ -1,8 +1,7 @@
 @media all and (min-width:501px)and (max-width:1000px){
     body{
-        font-size: 1.3vw;
+        font-size: 1.4vw;
         width: 100%;
-        border: 2px solid black;
     }
     #BlockPage{
         width:90%;
@@ -22,20 +21,21 @@
         margin-bottom: 20px;
     }
     .filtres{
-        width: 94%;
+        width: 100%;
         margin-left: 2px;
     }
     .BlockHébergements{
-        height:75vw ;
+        height:80vw ;
         max-height: none;
         
     }
     .Trend{
         float: none;
-        height: 20vw;
-        width: 94%;
+        height: 40%;
+        width: 100%;
+        padding-right: 11.3%;
+        margin-left: -5.8%;
         margin-top: 30px;
-        
         max-width: none;
         flex-wrap: wrap;
         flex-direction: row;
@@ -45,9 +45,13 @@
         padding-top: 20px;
         padding-left: 100px;
     }
+    .BlockTrendAll{
+        margin-left: 50px;
+    }
     .TrendBlock{
-       width: 22vw;
-       margin-left: 3em; 
+       width: 25vw;
+       height: 15vw;
+       margin-left: ; 
     }
     .fa-chart-line{
         margin-left:60px ;
@@ -58,8 +62,8 @@
         height: 70vw;
     }
     .BlocImgHébergement{
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
         width: 25vw;
         height: 20vw;
     }
@@ -85,12 +89,21 @@
     }
     .Trend p{
        margin-bottom: -10px;
-       margin-top: -10px; 
-       padding-right: 100px;
+       margin-top: -5px; 
+       font-size: 0.9EM;
+       position: relative;
+       right: 100px;
        margin-right: 0px;
     }
     .Trend h3{
-        width: auto;
+        width: 100%;
+        font-size: 1em;
+    }
+    .Trend .FlexStars{
+        margin-top: 8%;
+    }
+    .Trend .FlexStars2{
+       margin-top: 10%;
     }
     .Img1Trend{
        height: 60%;
@@ -111,7 +124,7 @@
         display: flex;
         justify-content: space-around;
         margin-top: -50px;
-        margin-left: -20px;
+        margin-left: 45px;
     }
     .Trend h2{
        margin-top: -20px;
@@ -120,6 +133,6 @@
        display: flex;
     }
     .BlockActivités{
-        margin-top: 50px
+        margin-top: 10%;
     }
 }

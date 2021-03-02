@@ -6,15 +6,12 @@
 	max-height:650px ;
 	background-color: #F2F2F2;
 	font-size: 1.1em;
-
-	margin-bottom: -1%;
 }
 .Trend h2{
 	font-size: 1.2em;
-	padding: 40px 0 0 20px;
+	padding: 20px 0 0 20px;
 	margin-left: 20px;
 	margin-bottom: 30px;
-	margin-top: 0px;
 }
 .fa-chart-line{
 	float: right;
@@ -28,15 +25,16 @@
     padding-left: 15px;
     margin-left: 100px;
     width: 10vw;
+	max-width: 200px;
 }
 .TrendBlock{
 	background-color: white;
-	width: 82%;
-	height: 11em;
+	width: 84%;
+	height: 10em;
 	max-height: 100%;
 	margin-bottom: 2em;
-	margin-right: 9%;
-	margin-left: 9%;
+	margin-right: 8%;
+	margin-left: 8%;
 	border-radius: 1em;
 	font-size: 0.7em;
 	box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
@@ -84,8 +82,16 @@
 .Trend .FlexStars{
 	width: 1px;
 	padding-left: 15px;
-	margin-top: 10%;
+	margin-top: 17%;
 	display: flex;
+	font-size: 1.5em;
+}
+.Trend .FlexStars2{
+	width: 1px;
+	padding-left: 15px;
+	margin-top: 12%;
+	display: flex;
+	font-size: 1.5em;
 }
 @media (min-width:1001px){
     .Trend{

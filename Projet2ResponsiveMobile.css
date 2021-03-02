@@ -1,12 +1,10 @@
 @media screen and (max-width:500px){	
-    html{
-        width: auto;
-    }
     body{
         width: auto; 
-        
+        font-size: 3vw;
     }
     #BlockPage{
+        margin: auto;
         display: flex;
         flex-direction: column;
         float: none;
@@ -16,77 +14,109 @@
         flex-wrap: wrap;
     }
     ul{
-        flex-direction: column ;
-        
+        flex-direction: column-reverse ;
+        font-size: 3vw;
+        justify-content: flex-start;
+    }
+    li{
+        margin:0px 0px 0px 0px;
+    }
+    .Hébergement{
+        border-top:2px solid white;
+        border-bottom:2px solid blue;
+       
+    }
+    .Inscription{
+        display: flex;
+        justify-self: flex-start;
     }
     .FlexFiltres{
         display: flex;
         flex-wrap: wrap;
-        width: 20%;
+
+    }
+    #BarreDeRecherche{
+        width: 70%;
+        height: 20%;
+    }
+    #BouttonDeRecherche{
+        width: 5%;
+        height: 2em;
+        border-radius: 2px;
+    }
+    .Search{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .Trend{
         float: none;
         width: auto;
+        height: auto;    
     }
     .TrendBlock{
         
-        width: 1px;
-        height: 1px;
+        width: 100px;
+        height: 20px;
     }
     .HébergementsMarseille{
        width: auto;
+       height: auto;
        display:flex;
        flex-direction: column;
        margin-left: 10px;
+       display: flex;
+       flex-direction: column;
     }
     .BlockActivités h2{
-        margin-left: 50px;
+        margin-left: 0px;
     }
     .BlocImgHébergement{
-        width: 2px;
-        height: 2px;
+        width: 20px;
+        height: 20px;
         margin-left: auto;
         margin-right: auto;
     }
     .BlocImgHébergement .imgHomeDimension1{
-        width:2px;
-        height: 2px;
+        width:200px;
+        height: 20px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension2{
-        width:2px;
-        height: 2px;
+        width:200px;
+        height: 20px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension3{
-        width:2px;
-        height: 2px;
+        width:200px;
+        height: 20px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension4{
-        width:2px;
-        height: 2px;
+        width:200px;
+        height: 20px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension5{
-        width:2px;
-        height: 2px;
+        width:200px;
+        height: 20px;
         background-size: cover;
     }
     .BlocImgHébergement .imgHomeDimension6{
-        width:2px;
-        height: 2px;
+        width:200px;
+        height: 100px;
         background-size: cover;
     }
     .TitreFiltre{
         width: 2px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .filtre{
-        margin-right: -10px;
+        margin-right: -30px;
     }
     .BlockActivités{
         width: auto;
+        height: auto;
         display: flex;
         margin-left:auto;
         margin-right: auto;
@@ -94,11 +124,11 @@
         justify-content: center;
     }
     .BlockActivités h2{
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .BlockActivityMobile{
-        width: 2px;
-        height: 240px;
+        width: 200px;
+        height: 100px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;
@@ -109,7 +139,7 @@
         margin-right: auto;
     }
     .BlockActivityImgMobile{
-           width: 2%;
+           width: 200px;
          height: 2px;
          background-size: cover;
          background-position: 50% 45%;
@@ -122,7 +152,7 @@
         margin-right:auto ;
     }
     .FooterBlock{
-        margin-left: 110px;
+        margin-left: 50px;
         flex-direction: column;
     }
 }
