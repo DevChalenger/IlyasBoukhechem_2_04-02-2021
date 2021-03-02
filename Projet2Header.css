@@ -1,6 +1,7 @@
 #ReserviaLogo{
-	width: 110px;
+	width: 5vw;
     margin-top: 20px;
+	max-height: 50px;
 	float: left;
 }	
 #head ul{
@@ -47,11 +48,12 @@
 }
 /*Début de la Barre de recherche*/
 #BarreDeRecherche{
-	width: 240px;
-	height: 50px;
+	width: 18%;
+	height: 3vw;
 	position: relative;
 	bottom: 2px;
 	left: 49px;
+	max-height: 50px;
 	border:1px solid #F2F2F2;
 	font-size: 0.9em;
 	padding-left: 10px;
@@ -70,26 +72,25 @@
 #Map{
 	border:2px solid rgba(0,0,0,0);
 	background-color: rgb(242,242,242);
-	height: 46px;
-	width: 46px;
-    margin-top: -52px;
+	height: 1.8vw;
+	padding-bottom: 0.9%;
+	width: 45px;
+	max-height: 50px;
+    margin-top: -2.5em;
     margin-bottom: 70px;
 	border-top-left-radius:15px;
 	border-bottom-left-radius: 15px;
 	
 }
 .Map{
-	margin:12px 0px 0px 15px;
-}
-.fa-map-marker-alt{
-    font-size: 18px;
-
+	margin:7px 0px 0px 17px;
 }
 #Map:hover{
     cursor: pointer;
 }
 #BouttonDeRecherche{
 	border:1px;
+	max-height: 50px;
 	border-top-right-radius: 0.8em;
 	font-size: 0.9em;
 	border-bottom-right-radius:0.8em;
@@ -98,8 +99,8 @@
     margin-left: 43px;
     position: relative;
     bottom: 2px;
-	height: 50px;
-	width: 120px;
+	height: 3vw;
+	width: 10%;
 	color: white;
 }
 #BouttonDeRecherche:focus{
@@ -111,7 +112,6 @@
 h4{
 	font-size: 0.8em;
 	font-family: Raleway;
-	margin-top: 2em;
 	margin-bottom: 2em;
 	font-weight: lighter;
 	
@@ -125,10 +125,7 @@ h4{
 	border-radius: 100%;
 	width: 20px;
 	height: 20px;
-	margin-right: 15px;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	
 }
 .fa-info{
 	font-size: 0.6em;

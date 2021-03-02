@@ -1,13 +1,13 @@
 .Trend{
 	float: right;
-	width: 27%;
+	width: 32%;
+	height: 100%;
 	max-width: 600px;
-	max-height:480px ;
-	height:auto;
+	max-height:650px ;
 	background-color: #F2F2F2;
 	font-size: 1.1em;
-	border: 2px solid black;
-	padding-bottom: 5%;
+
+	margin-bottom: -1%;
 }
 .Trend h2{
 	font-size: 1.2em;
@@ -27,13 +27,13 @@
 	display: flex;
     padding-left: 15px;
     margin-left: 100px;
-    width: 11vw;
+    width: 10vw;
 }
 .TrendBlock{
 	background-color: white;
 	width: 82%;
-	height: 8em;
-	max-height: 200px;
+	height: 11em;
+	max-height: 100%;
 	margin-bottom: 2em;
 	margin-right: 9%;
 	margin-left: 9%;
@@ -65,7 +65,7 @@
 }
 .Img3Trend{
 	background:url(Images/Hébergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg) center;
-	background-size: 150px 200px;
+	background-size: cover;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 0.7em;
 	border-bottom-left-radius: 21px ;
@@ -76,20 +76,20 @@
 }
 .Trend h3{
 	position: relative;
-	width: 180px; 
+	width: 55%; 
     padding-left: 15px;
-    margin-left: 100px;
+    margin-left: 0px;
 	display: flex;
 }
 .Trend .FlexStars{
 	width: 1px;
 	padding-left: 15px;
-	margin-top: 45px;
+	margin-top: 10%;
 	display: flex;
 }
 @media (min-width:1001px){
     .Trend{
-        width: 32%; 
+       
         border-radius: 1em;
     }
 }

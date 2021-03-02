@@ -16,28 +16,28 @@
 	color: #F2F2F2;
 }
 .BlockHébergements{
-	border: 2px solid black;
-	padding: auto;
+	height: 45vw;
+	max-height: 650px;
 }
 .HébergementsMarseille{	
 	max-width: 1200px;
-	max-height: 600px;
-	width: auto;
+	max-height: 650px;
+	width: 65%;
+	height: 100%;
 	
 }
 .HébergementsMarseille h2{
 	font-size: 1.2em;
 	padding: 40px 0px 0px 0px;
-	margin-left: 40px;
+	margin-left: 30px;
 	margin-bottom:30px;
 	margin-top: -0px;
 }
 .HébergementsMarseille .More{
-	font-size: 18px;
+	font-size: 1em;
 	padding: 20px;
 	margin-top: -10px;
-	margin-left: 20px;
-	margin-bottom: 0;
+	margin-left: 10px;
 }
 .HébergementsMarseille p{
 	font-size: 0.7em;
@@ -49,10 +49,11 @@
 	margin-top: 8px;
 }
 .BlocImgHébergement{
-	width: 28%;
-	max-width:300px;
-	height: 11vw;
-	max-height: 200px;
+	width: 17vw;
+	max-width:270px;
+	height: 14vw;
+	max-height:200px;
+
 	background-color: white;
 	margin-bottom: 30px;
 	border-radius: 10%;
@@ -129,8 +130,7 @@
 }
 @media (min-width:1001px){
 	.HébergementsMarseille{
-		width: 65%;
-		height: 100%;
+		
 		border-radius: 1.35em;
 	}
 }
