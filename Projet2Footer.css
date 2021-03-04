@@ -1,9 +1,5 @@
 footer{
-	width: 100%;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-	margin-bottom: -1%;
+    width: 100%;
     margin-top: 50px;
     padding-bottom: 20px;
     font-size: 0.9em; 
@@ -13,14 +9,13 @@ footer h2{
     width: auto;
 	font-size: 1em;
 	padding-top: 20px;
-}
+}/*
 .FooterBlock{
    display: flex;
    justify-content: space-around;
-   margin-right: 150px;
    position: relative;
    right: 5%;
-}
+}*/
 footer p{
     width: auto;
 	font-size: 0.85em;

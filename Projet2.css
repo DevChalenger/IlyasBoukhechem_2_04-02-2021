@@ -15,7 +15,6 @@ body{
 	max-width: 1600px;
 	margin: auto;
 	max-height: 2000px;
-	font-size: 1.2em;
 	
 	font-family: Raleway_Bold;
 }
@@ -27,7 +26,7 @@ p{
 	font-family: Raleway;
 	font-weight: lighter;
 	width: auto;
-}
+}/*
 #BlockPage{
 	max-width: 1740px;
 	max-height: 5000px;
@@ -37,6 +36,6 @@ p{
 }
 @media screen and (max-width:1600px){
 	body{
-		font-size: 1.2vw;
+		
 	}
 }

@@ -1,17 +1,15 @@
 .Trend{
 	float: right;
-	width: 32%;
-	height: 100%;
 	max-width: 600px;
-	max-height:650px ;
 	background-color: #F2F2F2;
-	font-size: 1.1em;
-}
+	/*font-size: 1.1em;
+}/*
 .Trend h2{
 	font-size: 1.2em;
-	padding: 20px 0 0 20px;
+	padding: 40px 0 0 20px;
 	margin-left: 20px;
 	margin-bottom: 30px;
+	margin-top: 0px;
 }
 .fa-chart-line{
 	float: right;
@@ -24,7 +22,6 @@
 	display: flex;
     padding-left: 15px;
     margin-left: 100px;
-    width: 10vw;
 	max-width: 200px;
 }
 .TrendBlock{

@@ -1,6 +1,6 @@
-.BlockActivités{
-	height: 40vw;
+/*.BlockActivités{
 	max-height: 600px;
+	border:2px solid black;
 	margin-bottom: -20px;
 }
 .BlockActivités h2{
@@ -13,12 +13,10 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	height:	30vw ;
 	max-height: 500px;
 }
+
 .Block1Activity{
-	width: 22.5%;
-	height: 30vw;
 	max-height: 500px;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
@@ -29,7 +27,6 @@
 }
 .DobbleBlock{
 	width: 22.5%;
-	height: 30vw;
 	max-height: 500px;
 	display: flex;
 	flex-direction: column;
@@ -37,46 +34,41 @@
 }
 .Block2Activity{
 	width: 100%;
-	height: 16vw;
-	max-height: 300px;
+	flex-basis: 60%;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block3Activity{
 	width: 100%;
-	height: 11vw;
+	flex-basis: 40%;
 	max-height: 150px;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block4Activity{
 	width: 22.5%;
-	height: 30vw;
 	max-height: 500px;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block5Activity{
-	height: 13.5vw;
+	flex-basis: 50%;
 	border-radius: 1em;
 	max-height: 225px;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block6Activity{
-	height: 13.5vw;
+	flex-basis: 50%;
 	max-height: 225px;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
-}
+}/*
 .Block1ActivityImg{
-	width: auto;
-	height: 90%;
-	background:url(Images/Activité/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) 49% 15%;
-	background-size:  100% 100%; 
+	background:url(Images/Activité/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) ;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
-}	
+}	/*
 .Block2ActivityImg{
 	width: auto;
 	height: 80%;
