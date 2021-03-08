@@ -26,6 +26,10 @@ p{
 	font-family: Raleway;
 	font-weight: lighter;
 	width: auto;
+}
+.fa-star{
+	color: #0065FC;
+	font-size: 0.8em;
 }/*
 #BlockPage{
 	max-width: 1740px;

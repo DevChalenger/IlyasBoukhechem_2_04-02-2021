@@ -1,4 +1,5 @@
-#ReserviaLogo{
+
+	#ReserviaLogo{
 	width: 90px;
     margin-top: 0px;
 	max-height: 50px;
@@ -28,7 +29,7 @@
 }*/
 .Hébergement{
 	font-family: Raleway;
-	border-top: 3px solid rgb(0,101,252);
+	
 }
 .Inscription{
 	color:rgb(0,101,252);
@@ -40,7 +41,7 @@
 	color: black;
 	font-family: Raleway;
 	border-top: 3px solid white;
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid #F2F2F2;
 }
 .TitreBlock{
 	width: 90%;
@@ -49,7 +50,7 @@
 .Titre{
 	width: 90%;
 	margin-right: auto;
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-family: Raleway_bold;
 }
 .Titre span{
@@ -68,18 +69,24 @@
 	border:1px solid #F2F2F2;
 	font-size: 0.9em;
 	padding-left: 10px;
-}
+}*/
 ::placeholder{
 	opacity: 1;
 	font-family: Raleway_bold;
 }
-#BarreDeRecherche::placeholder{
+.BarreDeRecherche::placeholder{
 	color: black;
+	user-select: none;
+}
 
-}
-#BarreDeRecherche:focus{
+.BarreDeRecherche:focus{
 	outline: none;
+	
 }
+
+input:focus::-webkit-input-placeholder {
+    color: white;
+}/*
 #Map{
 	border:2px solid rgba(0,0,0,0);
 	background-color: rgb(242,242,242);
@@ -146,4 +153,5 @@ h4{
 	font-size: 0.6em;
 	color: #0065FC;
 	
+}*/
 }
