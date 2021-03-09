@@ -39,6 +39,9 @@ nav{
     color:#0065FC;
     border-bottom:3px solid #0065FC;
 }
+.FlexInscriptionDesk{
+    display: none;
+}
 .Activité{
     width: 50%;
     color: black;
@@ -81,8 +84,7 @@ nav{
     font-size: 1.2em;
  }
 .LengthSearch{
-    width: 100%;
-    
+    width: 100%;  
 }
 .BarreDeRecherche{
     height: 100%;
@@ -146,7 +148,8 @@ nav{
     background-color: #F2F2F2;
 }
 .FlexStars{
-    font-size: 0.8em;
+    font-size: 1em;
+    display: flex;
 }
 .Trend .FlexStars{
     margin-bottom: 10px;
@@ -168,7 +171,6 @@ nav{
     padding-top: 30px;
     width: 90%;
     margin: auto;
-    font-size: 1.8em;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -203,7 +205,6 @@ nav{
     height: 130px;
     margin: 5px;
     margin-right:20px ;
-    
 }
 .HébergementsMarseille{
     width: auto;
@@ -228,7 +229,6 @@ nav{
 }
 .HébergementsMarseille .FlexStars{
     margin-left: 10px;
-    font-size: 0.8em;
 }
 .HébergementsMarseille .More{
     font-size: 1.1em;
@@ -315,7 +315,7 @@ nav{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    
     border-radius:1em ;
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
@@ -337,7 +337,7 @@ nav{
 .Block4ActivityImg{
     width: auto;
     height: 90%;
-    background:url(Images/Activité/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)50% 30%;
+    background:url(Images/Activité/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)50% 50%;
     background-size:auto 118%;
     background-repeat:no-repeat ;
     border-top-left-radius: 1em;
@@ -383,7 +383,11 @@ footer{
     flex-wrap: wrap;
     margin-right:auto ;
     margin-top: 50px;
+    padding-bottom: 30px;
     background-color: #F2F2F2;
+}
+footer h2{
+    font-size: 1.4em;
 }
 .FooterBlock{
     width: 90%;

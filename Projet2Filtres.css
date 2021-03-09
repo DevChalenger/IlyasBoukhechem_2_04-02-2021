@@ -5,12 +5,7 @@
 	margin-top:20px ;
 	display: flex;
 	flex-direction: column;
-}/*
-.TitreFiltre{
-	display: flex;
-	flex-direction: row;
-    align-items: center;
-}*/
+}
 .filtres{
 	display: flex;
 	flex-wrap: wrap;
@@ -56,4 +51,19 @@
 	font-size: 1.2em;
     color: #0065FC;
 	display: flex;
+}
+@media screen and (min-width:1001px){
+	.FlexFiltres{
+
+		width: 800px;
+		margin-left: 10px;
+		margin-right: auto;
+		flex-direction: row;
+	}
+	.TitreFiltre{
+		display: flex;
+		align-items: center;
+		margin-right: 20px;
+	}
+	
 }

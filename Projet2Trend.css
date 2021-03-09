@@ -3,17 +3,27 @@
 	background-color: #F2F2F2;
 }
 .Trend h2{
-	padding: 40px 0 0 20px;
-	margin-left: 20px;
 	margin-bottom: 30px;
-	margin-top: 0px;
 }
 .TrendBlock{
-	width: 80%;
+	width: 85%;
 }
 .FlexStars{
 	width: 1px;
 	display: flex;
 	font-size: 1em;
 }
-}	
+}
+@media screen and (min-width:1001px){
+	.Trend{
+		height: 100%;
+		float:right;
+		width: 32%;
+		border-radius: 1.35em;
+	}
+	.Trend h2{
+		width: 85%;
+		margin-bottom: 30px;
+		
+	}
+}

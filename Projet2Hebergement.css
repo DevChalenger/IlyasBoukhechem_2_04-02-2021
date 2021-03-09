@@ -18,7 +18,7 @@
 }
 .HébergementsMarseille{	
 	max-width: 1200px;
-	width: 65%;
+
 	height: auto;
 	
 }
@@ -78,15 +78,25 @@
 }
 
 
-@media (min-width:501px){
+@media (min-width:1001px){
+	.BlockHébergements{
+		height:600px;
+		margin-bottom: 50px;
+	}
 	.HébergementsMarseille{
 		background-color: #F2F2F2;
-	}
-}
-@media (min-width:1001px){
-	.HébergementsMarseille{
-		
+		width: 65%;
+		height: 100%;
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
 		border-radius: 1.35em;
+	}
+	.HébergementsMarseille h2{
+		margin: 30px auto 30px auto;
+	}
+	.BlocImgHébergement{
+		flex-basis: 28%;
 	}
 }
 }

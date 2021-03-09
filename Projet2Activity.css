@@ -4,33 +4,42 @@
 	margin-top: 0px;
 }
 .Activités{
-	border: 2px solid black;
 	display: flex;
 	flex-wrap: wrap;
-	
+	width: 100%;
+	height: 350px;
+	flex-basis:22.5% ;
+	margin: auto;
+	align-content: space-between;
 	justify-content: space-around;
 }
 .Block1Activity{
 	width: 40%;
-	margin:auto 0px auto 0px ;
-	
+	margin: 0;
+	margin-bottom: 50px;
 	border-radius: 1em;
+	margin-bottom: px;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Activités h3{
-	padding-left: 10px;
+	padding: 20px;
+	margin: 0px;
 	font-size: 0.9em;
 }
 .DobbleBlock{
 	width: 40%;
+
 	display: flex;
-	height: auto;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.DobbleBlock1{
+	margin-bottom: 50px;
 }
 .Block2Activity{
 	width: 100%;
 	border-radius: 1em;
+
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
 .Block3Activity{
@@ -40,6 +49,7 @@
 }
 .Block4Activity{
 	width: 40%;
+	margin: 0  ;
 	border-radius: 1em;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.105);
 }
@@ -55,51 +65,91 @@
 }
 .Block1ActivityImg{
 	height: 300px;
-	background:url(Images/Activité/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) ;
-	background-size: 150% 100%;
+	background:url(Images/Activité/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)50% 30% ;
+	background-size: 180% 120%;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }	
 .Block2ActivityImg{
-	width: auto;
-	height: 170px;
-	background:url(Images/Activité/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) 0% 40%;
+	height: 150px;
+	background:url(Images/Activité/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) 30% 40%;
 	background-size: 100% 400px;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }	
 .Block3ActivityImg{
-	background:url(Images/Activité/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) 0% 30%;
+	height: 80px;
+	background:url(Images/Activité/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) 50% 30%;
 	background-size: 100% 200px;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }
 .Block4ActivityImg{
-	width: auto;
-	height: 90%;
+	height: 300px;
 	background:url(Images/Activité/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)50% 30%;
-	background-size:auto 118%;
+	background-size:150% 118%;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }
 .Block5ActivityImg{
-	height: 80%;
-	background:url(Images/Activité/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg)50% 00%;
+	height: 110px;
+	background:url(Images/Activité/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg)50% 20%;
 	background-size:105% 300px;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }
 .Block6ActivityImg{
-	height: 200px;
-	background:url(Images/Activité/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg)50% 20%;
-	background-size:150% 200px;
+	height: 110px;
+	background:url(Images/Activité/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg)50% 40%;
+	background-size:100% 200px;
 	background-repeat:no-repeat ;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em ;
 }
+}
+@media screen and (min-width:1001px){
+	.Activités{
+		flex-wrap: nowrap;
+		height: 500px;
+		justify-content: space-between;
+	}
+	.BlockActivités h2{
+		width: 100%;
+	}
+	.BlockActivités h3{
+		font-size: 1.1em;
+		padding: 15px;
+	}
+	.Block1Activity{
+		width: 22.5%;
+		margin-bottom: 0;
+	}.Block1ActivityImg{
+		height: 450px;
+	}.Block2ActivityImg{
+		height: 210px;
+	}.Block3ActivityImg{
+		height: 130px;
+	}.Block4ActivityImg{
+		height: 450px;
+	}
+	.Block5ActivityImg{
+		height: 170px;
+	}.Block6ActivityImg{
+		height: 170px;
+	}
+	.DobbleBlock{
+		width: 22.5%;
+		height: auto;
+	}
+	.Block4Activity{
+		width: 22.5%;
+	}
+	.DobbleBlock1{
+		margin-bottom: 0;
+	}
 }

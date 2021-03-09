@@ -12,10 +12,8 @@
 
 }
 body{
-	max-width: 1600px;
+	max-width: 1900px;
 	margin: auto;
-	max-height: 2000px;
-	
 	font-family: Raleway_Bold;
 }
 a{
@@ -30,16 +28,16 @@ p{
 .fa-star{
 	color: #0065FC;
 	font-size: 0.8em;
-}/*
-#BlockPage{
-	max-width: 1740px;
+}
+
+@media screen and (min-width:1001px){
+	#BlockPage{
+	margin-top: 40px;
+	width: 94%;
+	max-width: 1900px;
 	max-height: 5000px;
 	margin-left: 3%;
 	margin-right: 3%;
 	font-family: Raleway_Bold;
-}
-@media screen and (max-width:1600px){
-	body{
-		
 	}
 }
