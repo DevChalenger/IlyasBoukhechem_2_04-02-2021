@@ -9,7 +9,6 @@
 @font-face{
 	font-family: Raleway_Bold;
 	src:url('police/Raleway-Bold.ttf') format('truetype');
-
 }
 body{ 
     font-size: 0.9em;
@@ -33,7 +32,6 @@ a{
 p{
 	font-family: Raleway;
 	font-weight: lighter;
-	width: auto;
 }
 .fa-star{
 	color: #0065FC;

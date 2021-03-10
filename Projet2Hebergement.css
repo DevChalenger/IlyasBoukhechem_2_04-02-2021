@@ -1,6 +1,4 @@
 .HébergementsMarseille{
-    width: auto;
-    height: auto;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -102,9 +100,6 @@
 	.HébergementsMarseille p{
 		margin-bottom: 5px;
 	}
-	.HébergementsMarseille{	
-		max-width: 1200px;
-	}
 	.HébergementsMarseille .More{
 		font-size: 1em;
 	}
@@ -173,17 +168,13 @@
 		margin: 30px auto 30px auto;
 	}
 	.BlocImgHébergement{
-		flex-basis: 28%;
-		
+		flex-basis: 28%;	
 	}
 	.HébergementsMarseille .More{
 		width: 92%;
 		margin-top: 0px;
 	}
 	.HébergementsMarseille p{
-		margin-top: -20px;
-	}
-	.HébergementsMarseille .FlexStars{
-		
+		margin-top: -15px;
 	}
 }

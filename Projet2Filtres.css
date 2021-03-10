@@ -28,16 +28,14 @@
 	flex-wrap: wrap;
 	align-items: center;
 	border-radius: 2em;
-	z-index: auto;
-	
+	z-index: auto;	
 }
 .filtre:hover{
 	scale: 2;
 	color: white;
     background-color: #0065FC;
 	border: 3px solid #DEEBFF;
-	transition:  0.5s ease-in-out ;
-	
+	transition:  0.5s ease-in-out ;	
 }
 .blockIcone{	
 	background-color: #DEEBFF;
@@ -56,9 +54,14 @@
     color: #0065FC;
 	display: flex;
 }
+@media screen and (min-width:501px){
+	.filtres{
+        width: 100%;
+		justify-content: space-around;
+    }
+}
 @media screen and (min-width:1001px){
 	.FlexFiltres{
-
 		width: 900px;
 		margin-left: 10px;
 		margin-right: auto;
@@ -68,6 +71,5 @@
 		display: flex;
 		align-items: center;
 		margin-right: 40px;
-	}
-	
+	}	
 }
