@@ -1,0 +1,75 @@
+.FlexFiltres{
+	font-size: 1.2em;
+	width: 90%;
+	margin: auto;
+	margin-top:20px ;
+	display: flex;
+	flex-direction: column;
+}
+.filtres{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align: center;
+	font-family: Raleway_Bold;
+	font-size: 0.95em;
+}
+.filtre{
+	border-top: 3px solid #F2F2F2;
+	border-right: 3px solid #F2F2F2;
+	border-bottom: 3px solid #F2F2F2;
+	border-left: 3px solid white;
+	padding-right:20px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	border-radius: 2em;
+	z-index: auto;	
+}
+.filtre:hover{
+	cursor: pointer;
+	color: white;
+    background-color: #0065FC;
+	border: 3px solid #DEEBFF;
+	transition:  0.5s ease-in-out ;	
+}
+.blockIcone{	
+	background-color: #DEEBFF;
+	background-size: auto;
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	margin:-3px 10px -3px -6px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+	font-size: 1.2em;
+    color: #0065FC;
+	display: flex;
+}
+@media screen and (min-width:501px){
+	.filtres{
+        width: 100%;
+		justify-content: space-around;
+    }
+}
+@media screen and (min-width:1001px){
+	.FlexFiltres{
+		width: 900px;
+		margin-left: 10px;
+		margin-right: auto;
+		flex-direction: row;
+	}
+	.TitreFiltre{
+		display: flex;
+		align-items: center;
+		margin-right: 40px;
+	}	
+}

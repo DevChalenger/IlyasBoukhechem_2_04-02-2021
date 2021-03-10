@@ -1,0 +1,180 @@
+.HébergementsMarseille{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.HébergementsMarseille h2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.HébergementsMarseille h3{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.HébergementsMarseille p{
+    margin-top: -15px;
+    margin-bottom: -0px;
+    font-size: 1em;
+    margin-left: 10px;
+}
+.HébergementsMarseille .FlexStars{
+    margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.HébergementsMarseille .More{
+    font-size: 1.1em;
+    margin-left: 5%;
+}
+.BlocImgHébergement{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius:1.35em ;
+    padding: 1%;
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.15);
+}
+.BlocImgHébergement .imgHomeDimension1{
+    height:120px;
+    border-top-left-radius: 1.35em;
+    border-top-right-radius: 1.35em;
+    background:url(Images/Hébergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension2{
+    height: 120px;
+    border-top-left-radius: 1.35em;
+    border-top-right-radius: 1.35em;
+    background: url(Images/Hébergement/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension3{
+    height: 120px;
+    border-top-left-radius: 1.35em;
+    border-top-right-radius: 1.35em;
+    background: url(Images/Hébergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension4{
+    height: 120px;
+    border-top-left-radius: 1.35em;
+    border-top-right-radius: 1.35em;
+    background: url(Images/Hébergement/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension5{
+    height: 120px;
+    border-top-left-radius: 1.35em;
+    border-top-right-radius: 1.35em;
+    background: url(Images/Hébergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.BlocImgHébergement .imgHomeDimension6{
+    height: 120px;
+    border-top-left-radius: 1.35em;
+    border-top-right-radius: 1.35em;
+    background: url(Images/Hébergement/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:501px){
+	.FlexHébergements{
+		border: 0px solid black;
+		margin-left: 15px;
+		margin-right: 15px;
+		display: flex;
+		flex-direction: row ;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.StarsGray{
+		color: #F2F2F2;
+	}
+	.HébergementsMarseille p{
+		margin-bottom: 5px;
+	}
+	.HébergementsMarseille .More{
+		font-size: 1em;
+	}
+	.BlocImgHébergement{
+		flex-basis: 40%;
+		min-width: 150px;
+		background-color: white;
+		margin-bottom: 30px;
+		border-radius: 1.35em;
+		padding: 0.5%;
+		box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.15);
+	}
+	.BlocImgHébergement .imgHomeDimension1{
+		width:99%;
+		margin: 0.5%;
+		border-top-left-radius: 1.35em;
+		border-top-right-radius: 1.35em;
+	}
+	.BlocImgHébergement .imgHomeDimension2{
+		width:99%;
+		margin: 0.5%;
+		border-top-left-radius: 1.35em;
+		border-top-right-radius: 1.35em;
+	}
+	.BlocImgHébergement .imgHomeDimension3{
+		width:99%;
+		margin: 0.5%;
+		border-top-left-radius: 1.35em;
+		border-top-right-radius: 1.35em;
+	}
+	.BlocImgHébergement .imgHomeDimension4{
+		width:99%;
+		margin: 0.5%;
+		border-top-left-radius: 1.35em;
+		border-top-right-radius: 1.35em;
+	}
+	.BlocImgHébergement .imgHomeDimension5{
+		width:99%;
+		margin: 0.5%;
+		border-top-left-radius: 1.35em;
+		border-top-right-radius: 1.35em;
+	}
+	.BlocImgHébergement .imgHomeDimension6{
+		width:99%;
+		margin: 0.5%;
+		border-top-left-radius: 1.35em;
+		border-top-right-radius: 1.35em;
+	}
+}
+@media (min-width:1001px){
+	.BlockHébergements{
+		height:600px;
+		margin-bottom: 50px;
+	}
+	.HébergementsMarseille{
+		background-color: #F2F2F2;
+		width: 65%;
+		height: 100%;
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+		border-radius: 1.35em;
+	}
+	.HébergementsMarseille h2{
+		width: 91%;
+		margin: 30px auto 30px auto;
+	}
+	.BlocImgHébergement{
+		flex-basis: 28%;	
+	}
+	.HébergementsMarseille .More{
+		width: 92%;
+		margin-top: 0px;
+	}
+	.HébergementsMarseille p{
+		margin-top: -15px;
+	}
+}

@@ -4,27 +4,27 @@
 		<title>Projet 2-Reservia</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="Projet2.css">
-		<link rel="stylesheet" type="text/css" href="Projet2Header.css">
-		<link rel="stylesheet" type="text/css" href="Projet2Footer.css">
-		<link rel="stylesheet" type="text/css" href="Projet2Activity.css">
-		<link rel="stylesheet" type="text/css" href="Projet2Trend.css">
-		<link rel="stylesheet" type="text/css" href="Projet2Hebergement.css">
-		<link rel="stylesheet" type="text/css" href="Projet2Filtres.css">	
+		<link rel="stylesheet" type="text/css" href="Projet2Css/Projet2.css">
+		<link rel="stylesheet" type="text/css" href="Projet2Css/Projet2Header.css">
+		<link rel="stylesheet" type="text/css" href="Projet2Css/Projet2Footer.css">
+		<link rel="stylesheet" type="text/css" href="Projet2Css/Projet2Activity.css">
+		<link rel="stylesheet" type="text/css" href="Projet2Css/Projet2Trend.css">
+		<link rel="stylesheet" type="text/css" href="Projet2Css/Projet2Hebergement.css">
+		<link rel="stylesheet" type="text/css" href="Projet2Css/Projet2Filtres.css">	
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		 integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
 		 crossorigin="anonymous"> 
-	</head>
+	</head> 
 	<body>
 	<div id="BlockPage">
 		<!--Début de l'en-tête de la Page-->
 			<header>
 				<div>
 				<div class="FlexNav">
-					<img src="Images/Logo/Reservia.svg" id="ReserviaLogo" alt="ReserviaLogo">
+					<img src="Projet2Css/Images/Logo/Reservia.svg" id="ReserviaLogo" alt="ReserviaLogo">
 					<div class="FlexInscription">
-							<a href="#" class="Inscription">S'inscrire</a>
-						</div>
+						<a href="#" class="Inscription">S'inscrire</a>
+					</div>
 				</div>
 					<nav>
 						<div class="FlexLink">
@@ -49,14 +49,10 @@
 					</div>
 					<form class="LengthSearch">
 						<label for="BarreDeRecherche" ></label>
-						<input type="search" class="BarreDeRecherche" placeholder="Marseille,France" maxlength="32" >
+						<input type="search" id="BarreDeRecherche" placeholder="Marseille,France" maxlength="32" >
 						<button class="BouttonDeRecherche">
-							<div class="BlockFieldSearch">
-								<div class="Search">
-									<i class="fas fa-search"></i>
-								</div>
-								<span>Rechercher</span>
-							</div>
+							<i class="fas fa-search"></i>
+							<span>Rechercher</span>
 						</button>
 					</form>
 				</div>	
