@@ -33,7 +33,8 @@
 .filtre:hover{
 	scale: 2;
 	color: white;
-    background-color: #0065FC;
+	cursor:pointer;
+    	background-color: #0065FC;
 	border: 3px solid #DEEBFF;
 	transition:  0.5s ease-in-out ;	
 }
