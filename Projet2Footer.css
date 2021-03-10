@@ -38,7 +38,6 @@ footer h2{
 }
 footer p{
     width: auto;
-   
 }
 }
 @media screen and (min-width:1001px){
@@ -46,5 +45,5 @@ footer p{
         width: 68%;
         margin-right: 28%;
         justify-content: space-between;
-    }
+    } 
 }
