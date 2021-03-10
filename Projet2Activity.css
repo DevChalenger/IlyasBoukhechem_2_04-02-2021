@@ -24,7 +24,7 @@
 .Activités h3{
 	padding: 20px;
 	margin: 0px;
-	font-size: 0.9em;
+	
 }
 .DobbleBlock{
 	width: 40%;
@@ -127,20 +127,29 @@
 	}
 	.Block1Activity{
 		width: 22.5%;
+		
 		margin-bottom: 0;
 	}.Block1ActivityImg{
 		height: 450px;
-	}.Block2ActivityImg{
+		background-position: 50% 20%;
+		background-size: 220% 520px;
+	}
+	.Block2ActivityImg{
 		height: 210px;
-	}.Block3ActivityImg{
+	}
+	.Block3ActivityImg{
 		height: 130px;
-	}.Block4ActivityImg{
+	}
+	.Block4ActivityImg{
 		height: 450px;
+		background-size: 220% 520px;
 	}
 	.Block5ActivityImg{
 		height: 170px;
-	}.Block6ActivityImg{
+	}
+	.Block6ActivityImg{
 		height: 170px;
+		background-position: 50% 20%;
 	}
 	.DobbleBlock{
 		width: 22.5%;

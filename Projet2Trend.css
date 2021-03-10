@@ -8,11 +8,6 @@
 .TrendBlock{
 	width: 85%;
 }
-.FlexStars{
-	width: 1px;
-	display: flex;
-	font-size: 1em;
-}
 }
 @media screen and (min-width:1001px){
 	.Trend{
@@ -24,6 +19,9 @@
 	.Trend h2{
 		width: 85%;
 		margin-bottom: 30px;
-		
+	}
+	.Img1Trend{
+		background-position: 50% 90%;
+		background-size: 170% 150px;
 	}
 }

@@ -11,10 +11,20 @@
 	src:url('police/Raleway-Bold.ttf') format('truetype');
 
 }
-body{
-	max-width: 1900px;
-	margin: auto;
+body{ 
+    font-size: 0.9em;
+    max-height:none ;
+    max-width: 1900px;
 	font-family: Raleway_Bold;
+	margin: auto;
+}
+#BlockPage{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    float: none;
+    max-width: 1600px;
+    margin-top: 30px;
 }
 a{
 	text-decoration: none;
@@ -29,7 +39,6 @@ p{
 	color: #0065FC;
 	font-size: 0.8em;
 }
-
 @media screen and (min-width:1001px){
 	#BlockPage{
 	margin-top: 40px;

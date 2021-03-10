@@ -10,12 +10,11 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 90%;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
 	font-family: Raleway_Bold;
-	font-size: 0.9em;
+	font-size: 0.95em;
 }
 .filtre{
 	border-top: 3px solid #F2F2F2;
@@ -33,7 +32,12 @@
 	
 }
 .filtre:hover{
-    background-color: #DEEBFF;
+	scale: 2;
+	color: white;
+    background-color: #0065FC;
+	border: 3px solid #DEEBFF;
+	transition:  0.5s ease-in-out ;
+	
 }
 .blockIcone{	
 	background-color: #DEEBFF;
@@ -55,7 +59,7 @@
 @media screen and (min-width:1001px){
 	.FlexFiltres{
 
-		width: 800px;
+		width: 900px;
 		margin-left: 10px;
 		margin-right: auto;
 		flex-direction: row;
@@ -63,7 +67,7 @@
 	.TitreFiltre{
 		display: flex;
 		align-items: center;
-		margin-right: 20px;
+		margin-right: 40px;
 	}
 	
 }
