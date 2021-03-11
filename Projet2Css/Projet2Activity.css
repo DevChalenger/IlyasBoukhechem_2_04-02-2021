@@ -112,9 +112,11 @@
 	}
 	.Block2Activity{
 		width: 100%;
+		
 	}
 	.Block3Activity{
 		width: 100%;
+		margin-bottom: 0;
 	}
 	.Block4Activity{
 		width: 40%;
@@ -125,6 +127,7 @@
 	}
 	.Block6Activity{
 		width: 100%;
+		margin-bottom: 0;
 	}
 	.Block1ActivityImg{
 		height: 300px;
