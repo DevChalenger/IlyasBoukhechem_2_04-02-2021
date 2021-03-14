@@ -20,31 +20,29 @@ footer h2{
     flex-direction: column;
 }
 @media screen and (min-width:501px){
-footer{
-    width: 100%;
-    margin-top: 50px;
-    padding-bottom: 20px;
-	background-color: #F2F2F2;
-}
-footer h2{
-    width: auto;
-	padding-top: 20px;
-}
-.FooterBlock{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%
-}
-footer p{
-    width: auto;
-   
-}
+    footer{
+        width: 100%;
+        margin-top: 50px;
+        padding-bottom: 20px;
+        background-color: #F2F2F2;
+    }
+    footer h2{
+        width: auto;
+        padding-top: 20px;
+    }
+    .FooterBlock{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+    }
+    footer p{
+        width: auto;
+    }
 }
 @media screen and (min-width:1001px){
     .FooterBlock{
         width: 68%;
         margin-right: 28%;
-        justify-content: space-between;
     }
 }

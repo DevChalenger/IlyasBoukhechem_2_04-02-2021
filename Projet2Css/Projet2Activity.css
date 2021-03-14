@@ -111,8 +111,7 @@
 		margin-bottom: 50px;
 	}
 	.Block2Activity{
-		width: 100%;
-		
+		width: 100%;	
 	}
 	.Block3Activity{
 		width: 100%;
@@ -156,14 +155,14 @@
 @media screen and (min-width:1001px){
 	.Activités{
 		flex-wrap: nowrap;
-		height: 500px;
+		height: auto;
 		justify-content: space-between;
 	}
 	.BlockActivités h2{
 		width: 100%;
 	}
 	.BlockActivités h3{
-		padding: 15px;
+		padding: 15px	;
 	}
 	.Block1Activity{
 		width: 22.5%;	
@@ -189,7 +188,6 @@
 	}
 	.DobbleBlock{
 		width: 22.5%;
-		height: auto;
 	}
 	.Block4Activity{
 		width: 22.5%;
