@@ -16,124 +16,120 @@
 		 crossorigin="anonymous"> 
 	</head> 
 	<body>
-	<div id="BlockPage">
+	<main id="BlockPage">
 		<!--Début de l'en-tête de la Page-->
-			<header>
-				<div>
+		<header>
+			<nav>
+				<img src="Projet2Css/Images/Logo/Reservia.svg" id="ReserviaLogo" alt="ReserviaLogo">
 				<div class="FlexNav">
-					<img src="Projet2Css/Images/Logo/Reservia.svg" id="ReserviaLogo" alt="ReserviaLogo">
-					<div class="FlexInscription">
-						<a href="#" class="Inscription">S'inscrire</a>
-					</div>
+				<div class="FlexInscription">
+					<a href="#" class="Inscription">S'inscrire</a>
 				</div>
-					<nav>
-						<div class="FlexLink">
-							<a href="#HébergementsMarseille" class="Hébergement">Hébergements</a>
-							<a href="#Activités" class="Activité">Activité</a>
-						</div>
-						<div class="FlexInscriptionDesk">
-							<a href="#" class="Inscription">S'inscrire</a>
-						</div>
-					</nav>
+				<div class="FlexLink">
+					<a href="#HebergementsMarseille" class="Hebergement">Hébergements</a>
+					<a href="#Activites" class="Activite">Activité</a>
+				</div>
+				</div>
+			</nav>
+		</div>	
+		<div class="TitreBlock">	
+			<h3 class="Titre">Trouvez votre hébergement pour des vacances de rêve<br/>
+				<span>En plein centre ville ou en pleine nature</span>
+			</h3>
+		</div>
+		<div class="BlockSearch">
+			<div class="BlockMap">
+				<i class="fas fa-map-marker-alt "></i>
+			</div>
+			<form class="LengthSearch">
+				<label for="BarreDeRecherche" ></label>
+				<input id="BarreDeRecherche" placeholder="Marseille,France" required
+				minlength="4" maxlength="32">	
+			</form>
+			<button class="BouttonDeRecherche">
+				<i class="fas fa-search"></i>
+				<span>Rechercher</span>
+			</button>
+		</div>	
+		<div class="FlexFiltres">
+			<span class="TitreFiltre">Filtres</span>
+			<div class="filtres">
+				<div class="filtre blockMoney">
+					<div class="blockIcone">
+						<i class="fas fa-money-bill-wave"></i>   
+					</div>
+					<span>Économique</span>
 				</div>	
-				<div class="TitreBlock">	
-					<h3 class="Titre">Trouvez votre hébergement pour des vacances de rêve<br/>
-						<span>En plein centre ville ou en pleine nature</span>
-					</h3>
+				<div class="filtre blockFamily">
+					<div class="blockIcone">
+						<i class="fas fa-child"></i>
+					</div>
+					<span>Familial</span>			
 				</div>
-				<div class="BlockSearch">
-					<div class="BlockMap">
-						<div class="Map">
-							<i class="fas fa-map-marker-alt "></i>
+				<div class="filtre blockHeart">
+					<div class="blockIcone">
+						<i class="fas fa-heart"></i>
+					</div>
+					<span>Romantique</span>
+				</div>
+				<div class="filtre blockDog">
+					<div class="blockIcone">
+						<i class="fas fa-dog"></i>
+					</div>
+					<span>Animaux autorisés</span>
+				</div>
+			</div>
+		</div>
+		<div class="NbLogements">
+			<div class="info">
+				<i class="fas fa-info"></i>
+			</div>
+			<h3>Plus de 500 logements sont disponible dans cette ville</h3>
+		</div>
+	</header>
+		<!--Fin de l'en-tête de la Page-->
+		<div class="BlockHebergements">
+		<aside class="Trend">
+			<h2>Les plus populaire <i class="fas fa-chart-line"></i></h2> 
+			<div class="BlockTrendAll">
+				<a href="#">
+				<article class="TrendBlock">
+					<div class="Img1Trend TrendImg">
+					</div>	
+					<div class="TrendInformation">
+						<div class="InformationTrend">	
+							<h3>Hôtel Le soleil du matin</h3>
+							<p>Nuit à partir de 128€</p>
+						</div>
+						<div class="FlexStars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
 						</div>
 					</div>
-					<form class="LengthSearch">
-						<label for="BarreDeRecherche" ></label>
-						<input type="search" id="BarreDeRecherche" placeholder="Marseille,France" maxlength="32" >
-						<button class="BouttonDeRecherche">
-							<i class="fas fa-search"></i>
-							<span>Rechercher</span>
-						</button>
-					</form>
-				</div>	
-				<div class="FlexFiltres">
-					<span class="TitreFiltre">Filtres</span>
-					<div class="filtres">
-						<div class="filtre blockMoney">
-							<div class="blockIcone">
-								<i class="fas fa-money-bill-wave"></i>   
-							</div>
-							<span>Économique</span>
-						</div>	
-						<div class="filtre blockFamily">
-							<div class="blockIcone">
-								<i class="fas fa-child"></i>
-							</div>
-							<span>Familial</span>			
-						</div>
-						<div class="filtre blockHeart">
-							<div class="blockIcone">
-								<i class="fas fa-heart"></i>
-							</div>
-							<span>Romantique</span>
-						</div>
-						<div class="filtre blockDog">
-							<div class="blockIcone">
-								<i class="fas fa-dog"></i>
-							</div>
-							<span>Animaux autorisés</span>
-						</div>
+				</article>
+				</a>
+				<a href="#">
+				<article class="TrendBlock">
+				<div class="Img2Trend TrendImg">
+				</div>
+				<div class="TrendInformation">
+					<div class="InformationTrend">
+						<h3>Au cœur de l'eau Chambres d'hôtes</h3>
+						<p>Nuit à partir de 71€</p>
+					</div>
+					<div class="FlexStars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star StarsGray"></i>
 					</div>
 				</div>
-				<div class="NbLogements">
-					<div class="info">
-						<i class="fas fa-info"></i>
-					</div>
-					<h3>Plus de 500 logements sont disponible dans cette ville</h3>
-				</div>
-			</header>
-			<!--Fin de l'en-tête de la Page-->
-			<div class="BlockHébergements">
-			<aside class="Trend">
-				<h2>Les plus populaire <i class="fas fa-chart-line"></i></h2> 
-				<div class="BlockTrendAll">
+				</article></a>
 					<a href="#">
-					<article class="TrendBlock">
-						<div class="Img1Trend TrendImg">
-						</div>	
-						<div class="TrendInformation">
-							<div class="InformationTrend">	
-								<h3>Hôtel Le soleil du matin</h3>
-								<p>Nuit à partir de 128€</p>
-							</div>
-							<div class="FlexStars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					</article></a>
-						<a href="#">
-						<article class="TrendBlock">
-						<div class="Img2Trend TrendImg">
-						</div>
-						<div class="TrendInformation">
-							<div class="InformationTrend">
-								<h3>Au cœur de l'eau Chambres d'hôtes</h3>
-								<p>Nuit à partir de 71€</p>
-							</div>
-							<div class="FlexStars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star StarsGray"></i>
-							</div>
-						</div>
-					</article></a>
-						<a href="#">
 						<article class="TrendBlock">
 						<div class="Img3Trend TrendImg">
 						</div>
@@ -153,10 +149,10 @@
 					</article></a>
 				</div>
 			</aside>
-			<section class="HébergementsMarseille" id="HébergementsMarseille">
+			<section class="HebergementsMarseille" id="HebergementsMarseille">
 				<h2>Hébergements à Marseille</h2>
-				<div class="FlexHébergements">
-					<article class="BlocImgHébergement">
+				<div class="FlexHebergements">
+					<article class="BlocImgHebergement">
 						<a href="#">
 							<div class="imgHomeDimension1"></div>
 							<h3>Auberge la Cannebière</h3>
@@ -170,7 +166,7 @@
 							</div>
 						</a>
 					</article>
-					<article class="BlocImgHébergement">
+					<article class="BlocImgHebergement">
 						<a href="#">
 							<div class="imgHomeDimension2"></div>			
 							<h3>Hôtel du port</h3>
@@ -184,7 +180,7 @@
 							</div>
 						</a>
 					</article>	
-					<article class="BlocImgHébergement">
+					<article class="BlocImgHebergement">
 						<a href="#">
 						<div class="imgHomeDimension3"></div>					
 						<h3>Hôtel les mouettes</h3>
@@ -198,7 +194,7 @@
 						</div>
 						</a>
 					</article>
-					<article class="BlocImgHébergement">
+					<article class="BlocImgHebergement">
 						<a href="#">
 						<div class="imgHomeDimension4"></div>				
 						<h3>Hôtel de la mer</h3>
@@ -212,7 +208,7 @@
 						</div>
 						</a>
 					</article>
-					<article class="BlocImgHébergement">
+					<article class="BlocImgHebergement">
 						<a href="#">
 						<div class="imgHomeDimension5"></div>				
 						<h3>Auberge Le Panier</h3>
@@ -226,7 +222,7 @@
 						</div>
 						</a>
 					</article>
-					<article class="BlocImgHébergement">
+					<article class="BlocImgHebergement">
 					<a href="#">
 						<div class="imgHomeDimension6"></div>	
 						<h3>Hôtel chez Amina</h3>
@@ -244,9 +240,9 @@
 				<h2 class="More">Affichier plus</h2>
 			</section>
 			</div>
-			<section class="BlockActivités" id="Activités">
+			<section class="BlockActivites" id="Activites">
 				<h2>Activités à Marseille</h2>
-				<div class="Activités">
+				<div class="Activites">
 					<article class="Block1Activity BlockActivityMobile">
 						<a href="#">
 						<div class="Block1ActivityImg BlockActivityImgMobile"></div>
@@ -289,7 +285,7 @@
 					</div>
 				</div>
 			</section>
-		</div>
+		</main>
 		<footer>
 			<div class="FooterBlock">
 				<section>
@@ -308,7 +304,7 @@
 					<p>Centre d'aide</p>
 					<p>Nous contacter</p>
 				</section>
-				</div>
-			</footer>
+			</div>
+		</footer>
 	</body>
 </html>
