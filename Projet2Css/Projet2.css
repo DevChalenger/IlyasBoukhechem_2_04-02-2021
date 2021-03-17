@@ -12,8 +12,7 @@
 }
 body{ 
     font-size: 0.9em;
-    max-height:none ;
-    max-width: 1900px;
+    max-width: 2000px;
 	font-family: Raleway_Bold;
 	margin: auto;
 }
@@ -21,8 +20,7 @@ body{
     margin: auto;
     display: flex;
     flex-direction: column;
-    float: none;
-    max-width: 1600px;
+    max-width: 1900px;
 }
 a{
 	text-decoration: none;
@@ -30,7 +28,6 @@ a{
 }
 p{
 	font-family: Raleway;
-	font-weight: lighter;
 }
 .fa-star{
 	color: #0065FC;
@@ -39,9 +36,6 @@ p{
 @media screen and (min-width:1001px){
 	#BlockPage{
 	width: 94%;
-	max-width: 1900px;
-	max-height: 5000px;
-	margin: auto;
 	margin-top: 40px;
 	font-family: Raleway_Bold;
 	}
