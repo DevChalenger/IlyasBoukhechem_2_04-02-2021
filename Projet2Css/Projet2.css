@@ -1,42 +1,39 @@
 @font-face{
-	font-family: Raleway;
-	src: url('police/Raleway-Regular.eot');
-    src: url('police/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
-         url('police/Raleway-Regular.woff') format('woff'),
-         url('police/Raleway-Regular.ttf') format('truetype'),
-         url('police/Raleway-Regular.svg#BallparkWeiner') format('svg');
+ font-family: Raleway;
+ src: url('police/Raleway-Regular.ttf') format('truetype');
 }
 @font-face{
-	font-family: Raleway_Bold;
-	src:url('police/Raleway-Bold.ttf') format('truetype');
+ font-family: Raleway_Bold;
+ src:url('police/Raleway-Bold.ttf') format('truetype');
 }
 body{ 
-    font-size: 0.9em;
-    max-width: 2000px;
-	font-family: Raleway_Bold;
-	margin: auto;
+ font-size: 0.9em;
+ max-width: 2000px;
+ font-family: Raleway_Bold;
+ margin: auto;
 }
 #BlockPage{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 1900px;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ max-width: 1900px;
 }
 a{
-	text-decoration: none;
-	color: black;
+ text-decoration: none;
+ color: black;
 }
 p{
-	font-family: Raleway;
+ font-family: Raleway;
 }
 .fa-star{
-	color: #0065FC;
-	font-size: 0.8em;
+ color: #0065FC;
+ font-size: 0.8em;
 }
+.StarsGray{
+ color: #F2F2F2;
+ }
 @media screen and (min-width:1001px){
-	#BlockPage{
-	width: 94%;
-	margin-top: 40px;
-	font-family: Raleway_Bold;
-	}
+#BlockPage{
+ width: 94%;
+}
 }
