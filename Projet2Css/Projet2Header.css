@@ -88,7 +88,6 @@ width: 50%;
 .BouttonDeRecherche{
     position: relative;
     right: 12px;
-    height: 50px;
     min-width: 50px;
     background-color: #0065FC;
     color: white;
