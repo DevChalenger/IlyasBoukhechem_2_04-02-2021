@@ -11,10 +11,6 @@ width: 90%;
 margin: auto;
 margin-bottom:20px ;
 }
-.Titre{
-width: 100%;
-margin: auto;
-}
 .Titre span{
 font-size: 0.7em;
 font-family: Raleway;
@@ -83,7 +79,7 @@ border:2px solid #F2F2F2;
 border-right: 0px;
 }
 #BarreDeRecherche{
-width: 100%;
+width: 90%;
 height: 46px;
 padding: 0;
 font-size: 1.2em;
@@ -127,6 +123,7 @@ margin-right: 5px;
 margin-top: 0px;
 color: #0065FC;
 display: flex;
+font-size: 0.9em;
 justify-content: center;
 align-items: center;
 border-radius:100% ;
@@ -137,7 +134,7 @@ width: 90%;
 margin:auto;   
 display: flex;
 align-items: center;
-margin-bottom: 20px;
+margin-bottom: 30px;
 }
 .NbLogements h3{
 font-family: Raleway;
@@ -148,7 +145,6 @@ font-weight: 500;
 @media screen and (min-width:501px){
 .Titre{
 text-align: center;
-width: auto;
 }
 i.fa-search{
 display: none;
@@ -170,8 +166,6 @@ top:0;
 }
 .NbLogements{
 width: 100%;
-margin: auto;
-margin-bottom: 30px;
 }
 .TitreBlock{
 width: 100%;
@@ -215,15 +209,9 @@ padding-top: 40px;
 width: 30%;
 margin: 0;
 }
-.BlockMap{
-height: 50px;
-}
 .BouttonDeRecherche{
 right: 0px ;
 border-bottom-left-radius: 0;
 border-top-left-radius: 0;
-}
-.LengthSearch{
-width: 80%;
 }
 }

@@ -19,74 +19,82 @@
 	<main id="BlockPage">
 		<!--==Header-->
 		<header>
+   <!--==Nav-->
 			<nav>
 				<img src="Projet2Css/Images/Logo/Reservia.svg" id="ReserviaLogo" alt="ReserviaLogo">
 				<div class="FlexNav">
-                                        <div class="FlexInscription">
-                                                <a href="#" class="Inscription">S'inscrire</a>
-                                        </div>
-                                        <div class="FlexLink">
-                                                <a href="#HebergementsMarseille" class="Hebergement Navi">Hébergements</a>
-                                                <a href="#Activites" class="Activite Navi">Activité</a>
-                                        </div>
+     <div class="FlexInscription">
+      <a href="#" class="Inscription">S'inscrire</a>
+     </div>
+     <div class="FlexLink">
+      <a href="#HebergementsMarseille" class="Hebergement Navi">Hébergements</a>
+      <a href="#Activites" class="Activite Navi">Activité</a>
+     </div>
 				</div>
 			</nav>
-		        <div class="TitreBlock">	
-                                <h2 class="Titre">Trouvez votre hébergement pour des vacances de rêve<br/>
-                                        <span>En plein centre ville ou en pleine nature</span>
-                                </h2>
-		        </div>
-		        <div class="BlockSearch">
-			        <div class="BlockMap">
-				        <i class="fas fa-map-marker-alt "></i>
-			        </div>
-                                <form class="LengthSearch">
-                                        <label for="BarreDeRecherche" ></label>
-                                        <input id="BarreDeRecherche" placeholder="Marseille,France">	
-                                </form>
-                                <button class="BouttonDeRecherche">
-                                        <i class="fas fa-search"></i>
-                                        <span>Rechercher</span>
-                                </button>
-		        </div>	
-		        <div class="FlexFiltres">
-			        <span class="TitreFiltre">Filtres</span>
-			        <div class="filtres">
-				        <div class="filtre blockMoney">
-				        	<div class="blockIcone">
-				        		<i class="fas fa-money-bill-wave"></i>   
-				        	</div>
-				        	<span>Économique</span>
-				        </div>	
-				        <div class="filtre blockFamily">
-				        	<div class="blockIcone">
-						<i class="fas fa-child"></i>
-					        </div>
-					        <span>Familial</span>			
-                                        </div>
-                                        <div class="filtre blockHeart">
-                                                <div class="blockIcone">
-                                                        <i class="fas fa-heart"></i>
-                                                </div>
-                                                <span>Romantique</span>
-                                        </div>
-                                        <div class="filtre blockDog">
-                                                <div class="blockIcone">
-                                                        <i class="fas fa-dog"></i>
-                                                </div>
-                                                <span>Animaux autorisés</span>
-                                        </div>
-                                </div>
-	        	</div>
-                        <div class="NbLogements">
-                                <div class="info">
-                                        <i class="fas fa-info"></i>
-                                </div>
-                                <h3>Plus de 500 logements sont disponible dans cette ville</h3>
-                        </div>
-	        </header>
-		<!--=/Fin du Header-->
+   <!--=/=Fin de la nav-->
+    <div class="TitreBlock">	
+      <h2 class="Titre">Trouvez votre hébergement pour des vacances de rêve<br/>
+       <span>En plein centre ville ou en pleine nature</span>
+      </h2>
+    </div>
+    <!--==Barre de Recherche-->
+     <div class="BlockSearch">
+      <div class="BlockMap">
+       <i class="fas fa-map-marker-alt "></i>
+      </div>
+      <form class="LengthSearch">
+       <label for="BarreDeRecherche" ></label>
+       <input id="BarreDeRecherche" placeholder="Marseille,France">	
+      </form>
+      <button class="BouttonDeRecherche">
+       <i class="fas fa-search"></i>
+       <span>Rechercher</span>
+      </button>
+		   </div>
+     <!--=/=Fin de la Barre de Recherche-->	
+     <!--Filtres-->
+     <div class="FlexFiltres">
+      <span class="TitreFiltre">Filtres</span>
+      <div class="filtres">
+       <div class="filtre blockMoney">
+        <div class="blockIcone">
+         <i class="fas fa-money-bill-wave"></i>   
+        </div>
+        <span>Économique</span>
+       </div>	
+       <div class="filtre blockFamily">
+        <div class="blockIcone">
+					   	<i class="fas fa-child"></i>
+					   </div>
+					   <span>Familial</span>			
+       </div>
+       <div class="filtre blockHeart">
+        <div class="blockIcone">
+         <i class="fas fa-heart"></i>
+        </div>
+        <span>Romantique</span>
+       </div>
+       <div class="filtre blockDog">
+        <div class="blockIcone">
+         <i class="fas fa-dog"></i>
+        </div>
+        <span>Animaux autorisés</span>
+       </div>
+      </div>
+	    </div>
+     <!--=/=Fin des Filtres-->
+     <div class="NbLogements">
+    <div class="info">
+     <i class="fas fa-info"></i>
+    </div>
+    <h3>Plus de 500 logements sont disponible dans cette ville</h3>
+   </div>
+	 </header>
+		<!--=/=Fin du Header-->
+  <!--==Block Hebergements et Trend-->
 		<div class="BlockHebergements">
+   <!--==Les plus populaire-->
 		<aside class="Trend">
 			<h2>Les plus populaire <i class="fas fa-chart-line"></i></h2> 
 			<div class="BlockTrendAll">
@@ -125,10 +133,10 @@
 					</div>
 				</div>
 				</article>
-                                </a>
+    </a>
 				<a href="#">
 					<article class="TrendBlock">
-				        	<div class="Img3Trend TrendImg"></div>
+				  <div class="Img3Trend TrendImg"></div>
 						<div class="TrendInformation">
 							<div class="InformationTrend">
 								<h3>Hôtel Tout bleu et Blanc</h3>
@@ -145,6 +153,8 @@
 					</article></a>
 				</div>
 			</aside>
+   <!--=/=Fin de la section les plus populaire-->
+   <!--==Block Hébergement-->
 			<section class="HebergementsMarseille" id="HebergementsMarseille">
 				<h2>Hébergements à Marseille</h2>
 				<div class="FlexHebergements">
@@ -236,71 +246,76 @@
 				<h2 class="More">Affichier plus</h2>
 			</section>
 		</div>
-                <section class="BlockActivites" id="Activites">
-                        <h2>Activités à Marseille</h2>
-                        <div class="Activites">
-                                <article class="Block1Activity BlockActivity WidthActivity">
-                                        <a href="#">
-                                        <div class="Block1ActivityImg BlockActivityImg"></div>
-                                        <h3>Vieux port</h3>
-                                        </a> 
-                                </article>
-                                <div class="DobbleBlock DobbleBlock1 WidthActivity">
-                                        <article class="Block2Activity BlockActivity DoubleWidthActivity">
-                                                <a href="#">
-                                                <div class="Block2ActivityImg BlockActivityImg"></div>
-                                                <h3>Fort de Pomègues</h3>
-                                                </a>
-                                        </article>
-                                        <a href="#">
-                                        <article class="Block3Activity BlockActivity DoubleWidthActivity">
-                                                <div class="Block3ActivityImg BlockActivityImg"></div>
-                                                <h3>Îles du Frioul </h3>
-                                        </article>
-                                        </a>
-                                </div>
-                                <article class="Block4Activity BlockActivity WidthActivity">
-                                <a href="#">
-                                <div class="Block4ActivityImg BlockActivityImg"></div>
-                                <h3>Parc National des Calanques</h3>
-                                </a>
-                                </article>
-                                <div class="DobbleBlock DobbleBlock2 WidthActivity">
-                                        <article class="Block5Activity BlockActivity DoubleWidthActivity">
-                                                <a href="#">
-                                                <div class="Block5ActivityImg BlockActivityImg"></div>
-                                                <h3>Notre-Dame-de-la-Garde</h3>
-                                                </a>
-                                        </article>
-                                        <article class="Block6Activity BlockActivity DoubleWidthActivity">
-                                                <a href="#">
-                                                <div class="Block6ActivityImg BlockActivityImg"></div>
-                                                <h3>Parc Longchamp</h3>
-                                                </a>
-                                        </article>
-                                </div>
-                        </div>
-                </section>
-        </main>
-        <footer>
-                <div class="FooterBlock">
-                        <section>
-                                <h2>A propos</h2>
-                                <p>Fonctionneent du site</p>
-                                <p>Conditions général de ventes</p>
-                                <p>Données et confidentialité</p>
-                        </section>
-                        <section>
-                                <h2>Nos hébergements</h2>
-                                <p>Charte qualités</p>
-                                <p>Soumettre votre hotel</p>
-                        </section>
-                        <section>
-                                <h2>Assistance</h2>
-                                <p>Centre d'aide</p>
-                                <p>Nous contacter</p>
-                        </section>
-                </div>
-        </footer>
+  <!--=/=Fin du Block Hébergement-->
+  <!--==Block Activité-->
+  <section class="BlockActivites" id="Activites">
+  <h2>Activités à Marseille</h2>
+  <div class="Activites">
+  <article class="Block1Activity BlockActivity WidthActivity">
+   <a href="#">
+    <div class="Block1ActivityImg BlockActivityImg"></div>
+    <h3>Vieux port</h3>
+   </a> 
+  </article>
+  <div class="DobbleBlock DobbleBlock1 WidthActivity">
+  <article class="Block2Activity BlockActivity DoubleWidthActivity">
+   <a href="#">
+    <div class="Block2ActivityImg BlockActivityImg"></div>
+    <h3>Fort de Pomègues</h3>
+   </a>
+  </article>
+  <a href="#">
+   <article class="Block3Activity BlockActivity DoubleWidthActivity">
+    <div class="Block3ActivityImg BlockActivityImg"></div>
+    <h3>Îles du Frioul </h3>
+   </article>
+  </a>
+  </div>
+  <article class="Block4Activity BlockActivity WidthActivity">
+  <a href="#">
+  <div class="Block4ActivityImg BlockActivityImg"></div>
+  <h3>Parc National des Calanques</h3>
+  </a>
+  </article>
+   <div class="DobbleBlock DobbleBlock2 WidthActivity">
+    <article class="Block5Activity BlockActivity DoubleWidthActivity">
+     <a href="#">
+      <div class="Block5ActivityImg BlockActivityImg"></div>
+      <h3>Notre-Dame-de-la-Garde</h3>
+     </a>
+    </article>
+    <article class="Block6Activity BlockActivity DoubleWidthActivity">
+     <a href="#">
+      <div class="Block6ActivityImg BlockActivityImg"></div>
+      <h3>Parc Longchamp</h3>
+     </a>
+    </article>
+   </div>
+  </div>
+  </section>
+  <!--=/= Fin du Block Activité-->
+ </main>
+ <!--== Footer-->
+ <footer>
+  <div class="FooterBlock">
+   <section>
+    <h2>A propos</h2>
+    <p>Fonctionneent du site</p>
+    <p>Conditions général de ventes</p>
+    <p>Données et confidentialité</p>
+   </section>
+   <section>
+    <h2>Nos hébergements</h2>
+    <p>Charte qualités</p>
+    <p>Soumettre votre hotel</p>
+   </section>
+   <section>
+    <h2>Assistance</h2>
+    <p>Centre d'aide</p>
+    <p>Nous contacter</p>
+   </section>
+  </div>
+	</footer>
+ <!--=/= Fin du Footer-->
 </body>
 </html>
