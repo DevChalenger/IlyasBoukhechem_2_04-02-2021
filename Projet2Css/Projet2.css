@@ -1,39 +1,39 @@
-@font-face{
-    font-family: Raleway;
-    src: url('police/Raleway-Regular.ttf') format('truetype');
+@font-face {
+  font-family: Raleway;
+  src: url("police/Raleway-Regular.ttf") format("truetype");
 }
-@font-face{
-    font-family: Raleway_Bold;
-    src:url('police/Raleway-Bold.ttf') format('truetype');
+@font-face {
+  font-family: Raleway_Bold;
+  src: url("police/Raleway-Bold.ttf") format("truetype");
 }
-body{ 
-    font-size: 0.9em;
-    max-width: 2000px;
-    font-family: Raleway_Bold;
-    margin: auto;
+body {
+  font-size: 0.9em;
+  max-width: 2000px;
+  font-family: Raleway_Bold;
+  margin: auto;
 }
-#BlockPage{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 1900px;
+#BlockPage {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1900px;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-p{
-    font-family: Raleway;
+p {
+  font-family: Raleway;
 }
-.fa-star{
-    color: #0065FC;
-    font-size: 0.8em;
+.fa-star {
+  color: #0065fc;
+  font-size: 0.8em;
 }
-.StarsGray{
-    color: #F2F2F2;
+.StarsGray {
+  color: #f2f2f2;
 }
-@media screen and (min-width:1001px){
-#BlockPage{
+@media screen and (min-width: 1001px) {
+  #BlockPage {
     width: 94%;
-}
+  }
 }
