@@ -38,15 +38,13 @@ nav {
   border-bottom: 3px solid #0065fc;
 }
 .Inscription {
-  color: #0065fc;
-}
-.FlexInscription {
-  width: 90%;
   margin: auto;
+  margin-right: 5%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 60px;
+  color: #0065fc;
 }
 .FlexLink {
   display: flex;
@@ -172,7 +170,7 @@ button:focus {
   .Titre {
     text-align: start;
   }
-  .FlexInscription {
+  .Inscription {
     width: auto;
     margin: 0;
   }
