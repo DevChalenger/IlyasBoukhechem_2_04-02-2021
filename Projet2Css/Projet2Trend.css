@@ -70,8 +70,6 @@
   }
   .BlockTrendAll {
     margin: auto;
-    display: flex;
-    flex-direction: column;
   }
 }
 @media screen and (min-width: 1001px) {
