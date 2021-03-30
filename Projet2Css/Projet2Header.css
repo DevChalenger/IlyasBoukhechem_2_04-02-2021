@@ -6,7 +6,7 @@
   top: 30px;
 }
 /*==Titre*/
-.TitreBlock {
+.Titre {
   width: 90%;
   margin: auto;
   margin-bottom: 20px;
@@ -164,7 +164,7 @@ button:focus {
   .NbLogements {
     width: 100%;
   }
-  .TitreBlock {
+  .Titre {
     width: 100%;
   }
   .Titre {
