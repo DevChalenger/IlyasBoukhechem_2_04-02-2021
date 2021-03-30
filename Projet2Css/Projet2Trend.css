@@ -79,4 +79,7 @@
     width: 32%;
     border-radius: 1.35em;
   }
+  .TrendBlock {
+    width: 85%;
+  }
 }
